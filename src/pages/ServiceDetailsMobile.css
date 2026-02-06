@@ -1,0 +1,75 @@
+/* Mobile Responsive Fixes for ServiceDetails */
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  section {
+    overflow-x: hidden;
+    width: 100%;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .relative[class*="w-["] {
+    width: 100% !important;
+    max-width: 260px !important;
+    height: 260px !important;
+    margin: 0 auto !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, li, div {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  .max-w-7xl, .max-w-6xl, .max-w-5xl, .max-w-4xl {
+    max-width: 100% !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .bg-white, .bg-gradient-to-r, .bg-gradient-to-br {
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .flex {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  
+  svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  ul, ol {
+    padding-left: 1.5rem !important;
+  }
+  
+  li {
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
