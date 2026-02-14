@@ -79,7 +79,7 @@ const EMOJI_SETS = {
 // Animated Illustration Components
 const AIIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Brain Emoji */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-9xl animate-bounce-slow">
         {EMOJI_SETS.AI_CORE}
@@ -109,7 +109,7 @@ const AIIllustration = () => (
 // AI Technology Stack Illustration
 const AITechStackIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[400px] h-[400px] animate-float">
+    <div className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] animate-float">
       {/* Central AI Core */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-2xl shadow-2xl animate-pulse-slow">
         <div className="w-full h-full flex items-center justify-center">
@@ -168,7 +168,7 @@ const AITechStackIllustration = () => (
 
 const DigitalExperienceIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Phone/Tablet */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         📱
@@ -193,7 +193,7 @@ const DigitalExperienceIllustration = () => (
 
 const CustomerExperienceIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Heart */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         💖
@@ -218,7 +218,7 @@ const CustomerExperienceIllustration = () => (
 
 const EmployeeExperienceIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Person */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         👤
@@ -243,7 +243,7 @@ const EmployeeExperienceIllustration = () => (
 
 const CompetitiveAdvantageIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Trophy */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         🏆
@@ -268,7 +268,7 @@ const CompetitiveAdvantageIllustration = () => (
 
 const DataAnalyticsIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Chart */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         📊
@@ -293,7 +293,7 @@ const DataAnalyticsIllustration = () => (
 
 const EnterpriseAppsIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Building */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         🏢
@@ -318,7 +318,7 @@ const EnterpriseAppsIllustration = () => (
 
 const CloudOperationsIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Cloud */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         ☁️
@@ -343,7 +343,7 @@ const CloudOperationsIllustration = () => (
 
 const QualityEngineeringIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Checkmark */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         ✅
@@ -368,7 +368,7 @@ const QualityEngineeringIllustration = () => (
 
 const ServiceNowIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[350px] h-[350px] animate-float">
+    <div className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] animate-float">
       {/* Central Workflow Hub with Gear Animation */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="w-28 h-28 bg-gradient-to-br from-indigo-500 to-blue-600 rounded-full shadow-2xl flex items-center justify-center animate-spin-slow">
@@ -480,7 +480,7 @@ const ServiceNowIllustration = () => (
 // Additional Illustrations for Data Analytics
 const BusinessIntelligenceIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[400px] h-[400px] animate-float">
+    <div className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] animate-float">
       {/* Central BI Core */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl shadow-2xl animate-pulse-slow">
         <div className="w-full h-full flex items-center justify-center">
@@ -536,7 +536,7 @@ const BusinessIntelligenceIllustration = () => (
 
 const AnalyticsOperationIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[400px] h-[400px] animate-float">
+    <div className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] animate-float">
       {/* Central Analytics Core */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-2xl shadow-2xl animate-pulse-slow">
         <div className="w-full h-full flex items-center justify-center">
@@ -593,7 +593,7 @@ const AnalyticsOperationIllustration = () => (
 // AI Maturity Model Illustration
 const AIMaturityModelIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[450px] h-[450px] animate-float">
+    <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[450px] md:h-[450px] animate-float">
       {/* Central AI Maturity Core */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl shadow-2xl animate-pulse-slow">
         <div className="w-full h-full flex items-center justify-center">
@@ -673,7 +673,7 @@ const AIMaturityModelIllustration = () => (
 // AI in Quality Engineering Illustration
 const AIQualityEngineeringIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[400px] h-[400px] animate-float">
+    <div className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] animate-float">
       {/* Central Quality Core */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl shadow-2xl animate-pulse-slow">
         <div className="w-full h-full flex items-center justify-center">
@@ -744,7 +744,7 @@ const AIQualityEngineeringIllustration = () => (
 
 const PartnerExperienceIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[400px] h-[400px] animate-float">
+    <div className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] animate-float">
       {/* Central Partner Core */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl shadow-2xl animate-pulse-slow">
         <div className="w-full h-full flex items-center justify-center">
@@ -802,7 +802,7 @@ const PartnerExperienceIllustration = () => (
 
 const HRSDIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[400px] h-[400px] animate-float">
+    <div className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] animate-float">
       {/* Central HR Core */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-2xl shadow-2xl animate-pulse-slow">
         <div className="w-full h-full flex items-center justify-center">
@@ -860,7 +860,7 @@ const HRSDIllustration = () => (
 
 const CSMIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[400px] h-[400px] animate-float">
+    <div className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] animate-float">
       {/* Central CSM Core */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-gradient-to-br from-pink-500 to-rose-600 rounded-2xl shadow-2xl animate-pulse-slow">
         <div className="w-full h-full flex items-center justify-center">
@@ -918,7 +918,7 @@ const CSMIllustration = () => (
 
 const MicrosoftDynamicsIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central CRM */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         🤝
@@ -943,7 +943,7 @@ const MicrosoftDynamicsIllustration = () => (
 
 const ApplicationDevelopmentIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Code */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         💻
@@ -968,7 +968,7 @@ const ApplicationDevelopmentIllustration = () => (
 
 const ApplicationManagementIllustration = () => (
   <div className="relative w-full h-full flex items-center justify-center">
-    <div className="relative w-[300px] h-[300px] animate-float">
+    <div className="relative w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] animate-float">
       {/* Central Dashboard */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl animate-pulse-slow">
         📊
@@ -999,7 +999,7 @@ export default function ServiceDetails() {
     }, [serviceName])
 
     return (
-        <section className="min-h-screen bg-gray-50 px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
+        <section className="min-h-screen bg-gray-50 px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24 overflow-x-hidden">
             <div className="max-w-7xl mx-auto">
                 <style>{`
                     @keyframes fadeInUp {
@@ -1439,7 +1439,7 @@ export default function ServiceDetails() {
     <>
         {/* Hero Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center mb-8 sm:mb-12 lg:mb-20">
-            <div className="animate-fadeInLeft order-2 lg:order-1">
+            <div className="animate-fadeInLeft order-1 lg:order-1">
                 <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-blue-900 mb-3 sm:mb-6 hover:text-blue-700 transition-colors duration-300 leading-snug sm:leading-tight">
                     Artificial Intelligence
                 </h1>
@@ -1459,7 +1459,7 @@ export default function ServiceDetails() {
                     <p className="text-slate-700 text-sm sm:text-base">Our clients achieve up to <span className="font-bold text-blue-600">40% cost reduction</span> and <span className="font-bold text-blue-600">3x faster decision-making</span> with AI implementation.</p>
                 </div>
             </div>
-            <div className="order-1 lg:order-2 mb-6 lg:mb-0">
+            <div className="order-2 lg:order-2 mb-6 lg:mb-0">
                 <AIIllustration />
             </div>
         </div>
@@ -1474,7 +1474,7 @@ export default function ServiceDetails() {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
-                    <div className="text-slate-700 leading-relaxed space-y-4 sm:space-y-6 animate-fadeInLeft order-2 lg:order-1">
+                    <div className="text-slate-700 leading-relaxed space-y-4 sm:space-y-6 animate-fadeInLeft order-1 lg:order-1">
                         <p className="hover:text-slate-900 transition-colors duration-300 text-sm sm:text-base">
                             At Arvish Consulting, we leverage a <b className="hover:text-blue-700 transition-colors duration-200">robust, future-ready AI technology stack</b>
                             that combines large language models, agentic AI frameworks, and
@@ -1526,7 +1526,7 @@ export default function ServiceDetails() {
                         </ul>
                     </div>
 
-                    <div className="flex justify-center animate-fadeInRight order-1 lg:order-2 mb-8 lg:mb-0">
+                    <div className="flex justify-center animate-fadeInRight order-2 lg:order-2 mb-8 lg:mb-0">
                         <div className="w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[500px]">
                             <AITechStackIllustration />
                         </div>
@@ -1669,7 +1669,7 @@ export default function ServiceDetails() {
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
                     {/* Enhanced AI Maturity SVG Illustration */}
-                    <div className="flex justify-center animate-fadeInLeft order-2 lg:order-1">
+                    <div className="flex justify-center animate-fadeInLeft order-2 lg:order-1 mb-8 lg:mb-0">
                         <div className="relative w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[500px] aspect-square">
                             <svg viewBox="0 0 500 500" className="w-full h-full">
                                 <defs>
@@ -1900,13 +1900,13 @@ export default function ServiceDetails() {
         <section className="mt-12 sm:mt-16 lg:mt-24 py-8 sm:py-12 lg:py-20 px-4 sm:px-6 bg-white">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start">
-                    <div className="flex justify-center order-1 lg:order-1 mb-8 lg:mb-0">
+                    <div className="flex justify-center order-2 lg:order-1 mb-8 lg:mb-0">
                         <div className="w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[500px]">
                             <AIQualityEngineeringIllustration />
                         </div>
                     </div>
 
-                    <div className="text-slate-700 leading-relaxed space-y-4 sm:space-y-6 order-2 lg:order-2">
+                    <div className="text-slate-700 leading-relaxed space-y-4 sm:space-y-6 order-1 lg:order-2">
                         <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-900">
                             AI in Quality Engineering
                         </h2>
