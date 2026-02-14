@@ -73,80 +73,80 @@ export const CoreValues = () => {
       <WaveBackground />
       <FloatingParticles />
       
-      <div className="max-w-7xl mx-auto px-4 py-20 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-20 relative z-10">
         {/* Hero Section */}
-        <div className="text-center mb-20">
-          <div className="mb-8">
+        <div className="text-center mb-12 sm:mb-20">
+          <div className="mb-6 sm:mb-8 flex justify-center">
             <ConsultingIcon />
           </div>
-          <h1 className="text-6xl font-black mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent animate-pulse">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 sm:mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent animate-pulse px-4">
             ARVISH CONSULTING
           </h1>
-          <h2 className="text-4xl font-bold text-slate-800 mb-8">Core Values & Excellence</h2>
-          <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
-            Transforming businesses through strategic consulting, innovative solutions, and unwavering commitment to client success
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-800 mb-4 sm:mb-8 px-4">Core Values & Excellence</h2>
+          <p className="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed px-4">
+            Delivering innovative IT & ITES solutions with a strong team of professionals, a customer-centric approach and a growing presence across India.
           </p>
         </div>
 
         {/* Values Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-20">
           {[
             {
-              icon: '🎯',
-              title: 'Strategic Excellence',
-              description: 'Data-driven strategies that deliver measurable business outcomes',
+              icon: '🤝',
+              title: 'Customer Satisfaction',
+              description: 'Commitment to surpass customer expectations and achieve high customer satisfaction in every engagement.',
               color: 'from-blue-500 to-cyan-500',
-              metrics: '300% ROI Average'
+              metrics: 'Customer First'
+            },
+            {
+              icon: '🏆',
+              title: 'Quality',
+              description: 'Continuous focus on excellence in all our functions, products and services.',
+              color: 'from-purple-500 to-pink-500',
+              metrics: 'Quality Driven'
+            },
+            {
+              icon: '🛡️',
+              title: 'Professional Integrity',
+              description: 'Ensuring the highest level of ethical standards and transparency in all our assignments.',
+              color: 'from-emerald-500 to-green-500',
+              metrics: 'Ethical Delivery'
+            },
+            {
+              icon: '👥',
+              title: 'Strong Workforce',
+              description: 'Skilled IT & ITES professionals deployed at customer locations across the country.',
+              color: 'from-orange-500 to-red-500',
+              metrics: '50+ Team'
+            },
+            {
+              icon: '📍',
+              title: 'Growing Presence',
+              description: 'Established delivery capability across seven states within a short span.',
+              color: 'from-indigo-500 to-purple-500',
+              metrics: '7 States'
             },
             {
               icon: '🚀',
-              title: 'Innovation Leadership',
-              description: 'Cutting-edge solutions that keep you ahead of the competition',
-              color: 'from-purple-500 to-pink-500',
-              metrics: '50+ Patents Filed'
-            },
-            {
-              icon: '🤝',
-              title: 'Client Partnership',
-              description: 'Long-term relationships built on trust and exceptional results',
-              color: 'from-emerald-500 to-green-500',
-              metrics: '98% Client Retention'
-            },
-            {
-              icon: '⚡',
-              title: 'Agile Delivery',
-              description: 'Rapid implementation with continuous optimization',
-              color: 'from-orange-500 to-red-500',
-              metrics: '40% Faster Delivery'
-            },
-            {
-              icon: '🔒',
-              title: 'Security First',
-              description: 'Enterprise-grade security in every solution we deliver',
-              color: 'from-indigo-500 to-purple-500',
-              metrics: 'Zero Breaches'
-            },
-            {
-              icon: '🌟',
-              title: 'Quality Assurance',
-              description: 'Rigorous testing and quality control processes',
+              title: 'Customer-Centric Model',
+              description: 'Continuous engagement and flexible delivery models for long-term partnerships.',
               color: 'from-teal-500 to-cyan-500',
-              metrics: '99.9% Uptime'
+              metrics: '20+ Customers'
             }
           ].map((value, index) => (
             <div
               key={index}
-              className={`bg-white/80 backdrop-blur-sm rounded-3xl p-8 border border-white/50 shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer transform hover:scale-105`}
+              className={`bg-white/80 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-white/50 shadow-xl hover:shadow-2xl transition-all duration-500 group cursor-pointer transform hover:scale-105`}
               onMouseEnter={() => setActiveCard(index)}
               onMouseLeave={() => setActiveCard(null)}
             >
-              <div className="text-6xl mb-6 text-center group-hover:animate-bounce">
+              <div className="text-4xl sm:text-5xl md:text-6xl mb-4 sm:mb-6 text-center group-hover:animate-bounce">
                 {value.icon}
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center group-hover:text-blue-600 transition-colors">
+              <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-3 sm:mb-4 text-center group-hover:text-blue-600 transition-colors">
                 {value.title}
               </h3>
-              <p className="text-slate-700 mb-6 text-center leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6 text-center leading-relaxed">
                 {value.description}
               </p>
               <div className={`text-center text-sm font-bold bg-gradient-to-r ${value.color} text-white px-4 py-2 rounded-full`}>
@@ -160,7 +160,7 @@ export const CoreValues = () => {
         </div>
 
         {/* 3D Pyramid */}
-        <div className="relative h-[600px] mb-20">
+        <div className="relative h-[400px] sm:h-[500px] md:h-[600px] mb-12 sm:mb-20">
           <div className="absolute inset-0 flex items-center justify-center perspective-1000">
             <div className="relative w-64 h-64 transform-style-3d animate-pyramid-rotate">
               {[
@@ -187,58 +187,58 @@ export const CoreValues = () => {
             </div>
           </div>
           
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-center">
-            <h3 className="text-4xl font-bold text-slate-800 mb-4">
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-center px-4 w-full">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-800 mb-3 sm:mb-4">
               Arvish <span className="text-blue-600">Excellence</span> Framework
             </h3>
-            <p className="text-slate-600 max-w-md text-lg">
-              Our integrated approach ensures every project delivers exceptional value and lasting impact
+            <p className="text-slate-600 max-w-md mx-auto text-sm sm:text-base md:text-lg">
+              Our proven engagement models and structured resource screening process ensure timely delivery, quality service and long-term customer success.
             </p>
           </div>
         </div>
 
         {/* Services Showcase */}
-        <div className="mb-20">
-          <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Our Consulting Services
+        <div className="mb-12 sm:mb-20">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-8 sm:mb-16 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent px-4">
+            Our Services
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12">
             {[
               {
-                title: 'Digital Transformation',
-                description: 'End-to-end digital modernization strategies',
-                features: ['Cloud Migration', 'Process Automation', 'Data Analytics', 'AI Integration'],
-                icon: '🔄'
+                title: 'Manpower Services for IT & ITES',
+                description: 'End-to-end resource deployment based on customer requirements.',
+                features: ['Resource Screening', 'Background Validation', 'Client Interviews', 'Onboarding Support'],
+                icon: '👥'
               },
               {
-                title: 'Business Strategy',
-                description: 'Strategic planning and market positioning',
-                features: ['Market Analysis', 'Competitive Intelligence', 'Growth Planning', 'Risk Assessment'],
-                icon: '📊'
-              },
-              {
-                title: 'Technology Solutions',
-                description: 'Custom software and system implementations',
-                features: ['Custom Development', 'System Integration', 'Mobile Solutions', 'Web Applications'],
+                title: 'Custom Application Development',
+                description: 'Design and development of web, mobile and enterprise applications.',
+                features: ['Web Applications', 'Mobile Apps', 'Backend Development', 'System Integration'],
                 icon: '💻'
               },
               {
-                title: 'Operational Excellence',
-                description: 'Process optimization and efficiency improvements',
-                features: ['Lean Operations', 'Quality Management', 'Performance Metrics', 'Change Management'],
+                title: 'HR Services',
+                description: 'Comprehensive HR and staffing solutions for various industries.',
+                features: ['Talent Acquisition', 'Payroll Support', 'Compliance', 'Employee Lifecycle Management'],
+                icon: '📄'
+              },
+              {
+                title: 'Maintenance Services',
+                description: 'SLA-based support for applications, infrastructure and corporate portals.',
+                features: ['Infra Management', 'Database Administration', 'Periodic Maintenance', 'Enhancements'],
                 icon: '⚙️'
               }
             ].map((service, index) => (
-              <div key={index} className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-white/50 shadow-lg hover:shadow-xl transition-all duration-300 group">
-                <div className="text-5xl mb-6 group-hover:animate-spin">{service.icon}</div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">{service.title}</h3>
-                <p className="text-slate-700 mb-6">{service.description}</p>
+              <div key={index} className="bg-white/90 backdrop-blur-sm rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-white/50 shadow-lg hover:shadow-xl transition-all duration-300 group">
+                <div className="text-4xl sm:text-5xl mb-4 sm:mb-6 group-hover:animate-spin">{service.icon}</div>
+                <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-3 sm:mb-4">{service.title}</h3>
+                <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6">{service.description}</p>
                 <ul className="space-y-2">
                   {service.features.map((feature, i) => (
-                    <li key={i} className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
-                      <span className="text-slate-600">{feature}</span>
+                    <li key={i} className="flex items-center gap-2 sm:gap-3">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse flex-shrink-0" />
+                      <span className="text-sm sm:text-base text-slate-600">{feature}</span>
                     </li>
                   ))}
                 </ul>
@@ -248,41 +248,41 @@ export const CoreValues = () => {
         </div>
 
         {/* Arvish Consulting Advantages */}
-        <div className="mb-20">
-          <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
+        <div className="mb-12 sm:mb-20">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-8 sm:mb-16 bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent px-4">
             Why Choose Arvish Consulting?
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-8 sm:mb-12">
             {[
               {
-                icon: '🏆',
-                title: 'Proven Track Record',
-                description: '500+ successful projects delivered',
-                highlight: '15+ Years Experience'
+                icon: '📅',
+                title: 'Established in 2015',
+                description: 'Strong growth with a proven delivery model',
+                highlight: '6 Million Revenue'
               },
               {
-                icon: '💡',
-                title: 'Industry Expertise',
-                description: 'Deep knowledge across multiple sectors',
-                highlight: '20+ Industries Served'
+                icon: '🤝',
+                title: '20+ Customers',
+                description: 'Serving IT, Government, Healthcare and service sectors',
+                highlight: 'Trusted Partner'
               },
               {
-                icon: '⚡',
-                title: 'Rapid Implementation',
-                description: 'Fast deployment with minimal disruption',
-                highlight: '50% Faster Delivery'
+                icon: '👥',
+                title: '50+ Professionals',
+                description: 'Skilled workforce deployed across client locations',
+                highlight: 'Expert Team'
               },
               {
-                icon: '💰',
-                title: 'Cost Optimization',
-                description: 'Maximum ROI through efficient solutions',
-                highlight: '40% Cost Reduction'
+                icon: '📍',
+                title: '7 State Presence',
+                description: 'Rapid expansion across India',
+                highlight: 'Growing Network'
               }
             ].map((advantage, index) => (
-              <div key={index} className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl transition-all duration-300 group text-center">
-                <div className="text-4xl mb-4 group-hover:animate-bounce">{advantage.icon}</div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{advantage.title}</h3>
+              <div key={index} className="bg-white/90 backdrop-blur-sm rounded-xl sm:rounded-2xl p-5 sm:p-6 border border-white/50 shadow-lg hover:shadow-xl transition-all duration-300 group text-center">
+                <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 group-hover:animate-bounce">{advantage.icon}</div>
+                <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2 sm:mb-3">{advantage.title}</h3>
                 <p className="text-slate-700 mb-4 text-sm">{advantage.description}</p>
                 <div className="bg-gradient-to-r from-blue-500 to-emerald-500 text-white px-3 py-1 rounded-full text-xs font-bold">
                   {advantage.highlight}
@@ -291,25 +291,25 @@ export const CoreValues = () => {
             ))}
           </div>
           
-          <div className="bg-gradient-to-r from-slate-100 to-blue-50 rounded-3xl p-8 border border-slate-200">
-            <h3 className="text-3xl font-bold text-center text-slate-900 mb-8">Our Competitive Edge</h3>
-            <div className="grid md:grid-cols-3 gap-6">
+          <div className="bg-gradient-to-r from-slate-100 to-blue-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-slate-200">
+            <h3 className="text-2xl sm:text-3xl font-bold text-center text-slate-900 mb-6 sm:mb-8">Our Competitive Edge</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
               {[
                 {
-                  title: 'Certified Professionals',
-                  items: ['AWS Certified Solutions Architects', 'Microsoft Azure Experts', 'Google Cloud Specialists', 'Salesforce Certified Consultants']
+                  title: 'Resource Screening',
+                  items: ['Technical evaluation', 'Coding assessments', 'Proctoring mechanism']
                 },
                 {
-                  title: 'Advanced Methodologies',
-                  items: ['Agile & Scrum Implementation', 'DevOps Best Practices', 'Lean Six Sigma Processes', 'Design Thinking Approach']
+                  title: 'Operational Support',
+                  items: ['Background validation', 'Regulatory compliance', 'Client-centric model']
                 },
                 {
-                  title: '24/7 Support & Maintenance',
-                  items: ['Round-the-clock Monitoring', 'Proactive Issue Resolution', 'Regular Performance Reviews', 'Continuous Optimization']
+                  title: 'Continuous Engagement',
+                  items: ['Lifecycle support', 'Collaboration reviews', 'Quick issue resolution']
                 }
               ].map((edge, index) => (
-                <div key={index} className="bg-white rounded-xl p-6 shadow-md">
-                  <h4 className="text-lg font-bold text-slate-900 mb-4 text-center">{edge.title}</h4>
+                <div key={index} className="bg-white rounded-lg sm:rounded-xl p-5 sm:p-6 shadow-md">
+                  <h4 className="text-base sm:text-lg font-bold text-slate-900 mb-3 sm:mb-4 text-center">{edge.title}</h4>
                   <ul className="space-y-2">
                     {edge.items.map((item, i) => (
                       <li key={i} className="flex items-center gap-2 text-sm text-slate-700">
@@ -325,16 +325,16 @@ export const CoreValues = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 rounded-3xl p-12 text-white">
-          <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Business?</h2>
-          <p className="text-xl mb-8 opacity-90">
+        <div className="text-center bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 rounded-2xl sm:rounded-3xl p-8 sm:p-12 text-white">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 px-4">Ready to Transform Your Business?</h2>
+          <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 opacity-90 px-4">
             Partner with Arvish Consulting for strategic solutions that drive real results
           </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="bg-white text-blue-600 font-bold text-xl px-12 py-4 rounded-2xl hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center px-4">
+            <button className="bg-white text-blue-600 font-bold text-base sm:text-lg md:text-xl px-8 sm:px-12 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
               Start Your Project
             </button>
-            <button className="border-2 border-white text-white font-bold text-xl px-12 py-4 rounded-2xl hover:bg-white hover:text-blue-600 transition-all duration-300">
+            <button className="border-2 border-white text-white font-bold text-base sm:text-lg md:text-xl px-8 sm:px-12 py-3 sm:py-4 rounded-xl sm:rounded-2xl hover:bg-white hover:text-blue-600 transition-all duration-300">
               Schedule Consultation
             </button>
           </div>

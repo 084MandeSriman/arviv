@@ -30,19 +30,20 @@ const MuleSoftPage = () => {
 
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-white/20 shadow-2xl animate-fade-up">
             <p className="text-xl text-blue-100 leading-relaxed text-center">
-              Managing multiple, complex API integrations can be a daunting task. With our MuleSoft services, 
-              it will be well-managed, risk-controlled and seamless activity. We offer a range of comprehensive 
-              MuleSoft services to help your organization build a connected and integrated ecosystem.
+              Managing multiple and complex API integrations can be challenging. Our MuleSoft services help organizations build a connected and integrated ecosystem that is well-governed, secure and scalable.
+            </p>
+            <p className="text-xl text-blue-100 leading-relaxed text-center mt-4">
+              We provide comprehensive MuleSoft solutions that enable API-led connectivity, reusable integration assets and loosely coupled applications for greater business agility.
             </p>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             {[
-              { value: '100%', label: 'Integration Success' },
-              { value: '70%', label: 'Cost Reduction' },
-              { value: '50%', label: 'Faster Deployment' },
-              { value: '24/7', label: 'Support' }
+              { value: 'API', label: 'Led Connectivity' },
+              { value: 'Hybrid', label: 'Integration' },
+              { value: 'Reusable', label: 'Assets' },
+              { value: 'Secure', label: 'Ecosystem' }
             ].map((stat, index) => (
               <div key={index} className="text-center animate-fade-up" style={{ animationDelay: `${index * 100}ms` }}>
                 <div className="text-3xl md:text-4xl font-bold text-white mb-2">{stat.value}</div>
@@ -132,8 +133,7 @@ const MuleSoftPage = () => {
                   </span>
                 </h2>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  MuleSoft allows developers to quickly and seamlessly connect applications for data exchange, 
-                  making integration of different systems simpler, regardless of their technology platform.
+                  MuleSoft enables organizations to quickly and seamlessly connect applications for efficient data exchange, simplifying integration across different systems regardless of their underlying technology platforms.
                 </p>
               </div>
 
@@ -226,7 +226,7 @@ const MuleSoftPage = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900">Universal Connectivity</h4>
-                      <p className="text-sm text-gray-600">Connect any system regardless of technology platform</p>
+                      <p className="text-sm text-gray-600">Connect applications and services across diverse technology platforms through a unified integration layer.</p>
                     </div>
                   </div>
 
@@ -238,7 +238,7 @@ const MuleSoftPage = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900">Real-time & Batch</h4>
-                      <p className="text-sm text-gray-600">Available for deployment anywhere, integrating real-time or batch</p>
+                      <p className="text-sm text-gray-600">Support both real-time and batch integrations across cloud, on-premise and hybrid environments.</p>
                     </div>
                   </div>
                 </div>
@@ -259,7 +259,7 @@ const MuleSoftPage = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Flexible deployment models for cloud services, on-premise, and hybrid integration platforms
+              Flexible deployment models for cloud, on-premise and hybrid integration environments.
             </p>
           </div>
 
@@ -274,19 +274,19 @@ const MuleSoftPage = () => {
                     {
                       platform: 'CloudHub',
                       type: 'iPaaS',
-                      description: 'Integration Platform as a Service with no conventional installation needed',
+                      description: 'Integration Platform as a Service (iPaaS) with simplified deployment and management.',
                       color: 'from-blue-500 to-cyan-500'
                     },
                     {
                       platform: 'On-Premise',
                       type: 'Self-hosted',
-                      description: 'Customer-operated environments for complete control and security',
+                      description: 'Customer-managed runtime environments for enhanced control and security.',
                       color: 'from-purple-500 to-pink-500'
                     },
                     {
                       platform: 'AWS & Azure',
                       type: 'Public Cloud',
-                      description: 'Deploy on leading cloud platforms with enterprise-grade scalability',
+                      description: 'Deploy MuleSoft runtimes on leading cloud platforms with high scalability and performance.',
                       color: 'from-green-500 to-emerald-500'
                     }
                   ].map((option, index) => (
@@ -318,25 +318,25 @@ const MuleSoftPage = () => {
                   {[
                     {
                       title: 'Gain MuleSoft Expertise',
-                      description: 'Skills transfer accelerates time-to-value and gives ongoing returns',
+                      description: 'Accelerate time-to-value through knowledge transfer and best practice implementation.',
                       icon: '🎓',
                       delay: '100ms'
                     },
                     {
                       title: 'Targeted Deployment',
-                      description: 'Configuration optimized to meet your specific business goals',
+                      description: 'Configure integration environments aligned to specific business objectives.',
                       icon: '🎯',
                       delay: '200ms'
                     },
                     {
                       title: 'Boost Performance',
-                      description: 'Analysis and testing guarantee performance, security, and efficiency',
+                      description: 'Ensure performance, reliability and security through structured testing and optimization.',
                       icon: '🚀',
                       delay: '300ms'
                     },
                     {
                       title: 'Accelerate Implementation',
-                      description: 'Rapid deployment while minimizing potential business risks',
+                      description: 'Enable rapid deployment while minimizing operational risks.',
                       icon: '⚡',
                       delay: '400ms'
                     }
@@ -394,8 +394,7 @@ const MuleSoftPage = () => {
                   </span>
                 </h2>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Best-in-class MuleSoft development providing several advantages to developers and software testers, 
-                  boosting your organization's growth and improving productivity.
+                  Our MuleSoft development services enable organizations to build scalable, reusable and loosely coupled integrations that improve productivity and accelerate digital transformation.
                 </p>
               </div>
 
@@ -478,7 +477,7 @@ const MuleSoftPage = () => {
                     <div>
                       <h4 className="font-bold text-gray-900">Smart Business Transformation</h4>
                       <p className="text-gray-600 text-sm">
-                        Make your business self-dependent and agile with MuleSoft development services
+                        Enable your organization to become agile and self-reliant through API-led connectivity and reusable integration capabilities.
                       </p>
                     </div>
                   </div>
@@ -500,7 +499,7 @@ const MuleSoftPage = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Enable digital transformation with Mule 4's enhanced capabilities for sustainable growth
+              Enable digital transformation using Mule 4 enhanced integration capabilities.
             </p>
           </div>
 
@@ -566,13 +565,11 @@ const MuleSoftPage = () => {
                 
                 <div className="space-y-6 mb-8">
                   <p className="text-gray-700 leading-relaxed">
-                    Migration is typically just the first step to enabling a broader digital transformation vision, 
-                    encompassing hybrid connectivity between Cloud, SaaS and on-premise systems.
+                    Migration is the first step toward a broader digital transformation strategy that enables hybrid connectivity across cloud, SaaS and on-premise systems.
                   </p>
                   
                   <p className="text-gray-700 leading-relaxed">
-                    Mule 4 enables federated agile delivery and a new operating model that supports creation and 
-                    reuse of digital capabilities and assets (APIs) for sustainable growth.
+                    Mule 4 supports federated agile delivery and a new operating model that promotes the creation and reuse of digital capabilities and APIs for sustainable business growth.
                   </p>
                 </div>
 
@@ -615,7 +612,7 @@ const MuleSoftPage = () => {
             <div className="inline-flex flex-col md:flex-row items-center gap-8 p-8 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-3xl shadow-xl border border-blue-200">
               <div className="text-left">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Ready to Transform Your Integration Strategy?</h3>
-                <p className="text-gray-600">Connect with our MuleSoft experts for a customized solution</p>
+                <p className="text-gray-600">Connect with our MuleSoft experts to design and implement a tailored integration strategy for your organization.</p>
               </div>
               <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 transform flex items-center gap-3 whitespace-nowrap">
                 Get Started

@@ -27,23 +27,20 @@ const SharepointPage = () => {
 
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-white/20 shadow-2xl animate-fade-up">
             <p className="text-xl text-blue-50 leading-relaxed">
-              Gaining quick access to accurate information or relevant documents is vital to drive and operate 
-              businesses efficiently. Access to business-critical content for the right people at the right time, 
-              anytime, anywhere is key to success.
+              Gaining quick access to accurate information and relevant documents is essential for efficient business operations. Delivering business-critical content to the right people at the right time, anytime and anywhere, is key to organizational success.
             </p>
             <p className="text-xl text-blue-50 leading-relaxed mt-6">
-              Arvish Consulting Solutions has qualified professionals who have immense experience and expertise in developing 
-              and implementing full-featured ECMS solutions ensuring high scalability and flexibility.
+              Arvish Consulting Solutions has qualified professionals with extensive experience in designing, developing and implementing full-featured Enterprise Content Management solutions that are highly scalable and flexible.
             </p>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             {[
-              { value: '100%', label: 'Customizable' },
-              { value: '24/7', label: 'Accessibility' },
-              { value: 'Gold', label: 'Microsoft Partner' },
-              { value: 'Secure', label: 'Data Protection' }
+              { value: 'ECMS', label: 'Solutions' },
+              { value: 'Scalable', label: 'Architecture' },
+              { value: 'Flexible', label: 'Deployment' },
+              { value: 'Expert', label: 'Consultants' }
             ].map((stat, index) => (
               <div key={index} className="text-center animate-fade-up" style={{ animationDelay: `${index * 100}ms` }}>
                 <div className="text-3xl md:text-4xl font-bold text-white mb-2">{stat.value}</div>
@@ -151,8 +148,7 @@ const SharepointPage = () => {
                     </div>
                   </div>
                   <p className="text-gray-700 leading-relaxed">
-                    We have an incredibly talented team with specialists in deployment, configuration, 
-                    integration with other systems, and custom solution development for SharePoint on-premises or in the cloud.
+                    We assess core business objectives and recommend appropriate process improvements. Our team specializes in deployment, configuration, system integration and custom solution development for SharePoint both on-premises and in the cloud.
                   </p>
                 </div>
 
@@ -163,7 +159,7 @@ const SharepointPage = () => {
                     </div>
                     <h4 className="font-bold text-gray-900 text-lg mb-3">Technology Feasibility</h4>
                     <p className="text-gray-600 text-sm">
-                      Technical due-diligence, research and platform recommendation with estimated budget and timelines
+                      Technical due diligence, research and platform recommendation with estimated budget and timelines.
                     </p>
                   </div>
 
@@ -173,7 +169,7 @@ const SharepointPage = () => {
                     </div>
                     <h4 className="font-bold text-gray-900 text-lg mb-3">Training & Workshops</h4>
                     <p className="text-gray-600 text-sm">
-                      Comprehensive end-user training, change management services, and technical documentation
+                      Comprehensive end-user training, change management services and detailed technical documentation.
                     </p>
                   </div>
                 </div>
@@ -215,19 +211,7 @@ const SharepointPage = () => {
 
                 {/* Benefits */}
                 <div className="space-y-4">
-                  <div className="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl">
-                    <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center text-white">
-                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900">Quick ROI</h4>
-                      <p className="text-sm text-gray-600">Change management strategies for quick return on investment</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl">
+<div className="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl">
                     <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center text-white">
                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -256,7 +240,7 @@ const SharepointPage = () => {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Flexible and scalable deployment methodology for SharePoint installations
+              Our team assists organizations with initial site preparation, installation, setup and configuration of Microsoft SharePoint.
             </p>
           </div>
 
@@ -268,31 +252,29 @@ const SharepointPage = () => {
                 
                 <div className="space-y-6">
                   <p className="text-gray-700 leading-relaxed">
-                    Our staff assists organizations with initial site preparation, installation, setup, 
-                    and configuration of Microsoft SharePoint. Our methodology is flexible and scalable 
-                    enough to meet varying deployment needs.
+                    Our deployment methodology is flexible and scalable to meet varying business needs and is based on Microsoft best practices and our extensive knowledge base.
                   </p>
 
                   <div className="grid gap-4">
                     {[
                       {
-                        title: 'Best Practices',
-                        description: 'Based on Microsoft guidelines and our extensive Knowledge Base',
+                        title: 'Microsoft Best Practices',
+                        description: 'Microsoft best practices based implementation',
                         icon: '📚'
                       },
                       {
                         title: 'Comprehensive Documentation',
-                        description: 'Detailed documentation and templates for every phase',
+                        description: 'Comprehensive documentation and templates',
                         icon: '📋'
                       },
                       {
-                        title: 'Solid Planning',
-                        description: 'Robust planning and design for successful implementation',
+                        title: 'Robust Planning',
+                        description: 'Robust planning and solution design',
                         icon: '🗺️'
                       },
                       {
                         title: 'Risk Mitigation',
-                        description: 'Minimizing risks with robust mitigation strategies',
+                        description: 'Risk mitigation through structured deployment approach',
                         icon: '🛡️'
                       }
                     ].map((item, index) => (
@@ -315,61 +297,7 @@ const SharepointPage = () => {
               </div>
             </div>
 
-            {/* Deployment Complexity */}
-            <div className="space-y-8">
-              <div className="bg-gradient-to-br from-white to-indigo-50 rounded-3xl p-8 shadow-xl border border-indigo-100">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Deployment Complexity</h3>
-                
-                <div className="space-y-6">
-                  {[
-                    {
-                      level: 'Basic',
-                      description: 'Standard implementation for small to medium organizations',
-                      color: 'from-green-500 to-emerald-500',
-                      features: ['Standard setup', 'Basic configuration', 'User training']
-                    },
-                    {
-                      level: 'Intermediate',
-                      description: 'Enhanced features with custom workflows',
-                      color: 'from-blue-500 to-cyan-500',
-                      features: ['Custom workflows', 'Integration setup', 'Advanced security']
-                    },
-                    {
-                      level: 'Advanced',
-                      description: 'Complex enterprise deployment with full customization',
-                      color: 'from-purple-500 to-pink-500',
-                      features: ['Full customization', 'Multiple integrations', 'Enterprise security']
-                    }
-                  ].map((level, index) => (
-                    <div 
-                      key={index}
-                      className="group bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200"
-                    >
-                      <div className="flex items-center justify-between mb-4">
-                        <div className="flex items-center gap-3">
-                          <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${level.color} flex items-center justify-center text-white`}>
-                            {level.level.charAt(0)}
-                          </div>
-                          <div>
-                            <h4 className="font-bold text-gray-900">{level.level}</h4>
-                            <p className="text-sm text-gray-500">{level.description}</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="space-y-2">
-                        {level.features.map((feature, idx) => (
-                          <div key={idx} className="flex items-center gap-2">
-                            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                            <span className="text-sm text-gray-600">{feature}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
+</div>
         </div>
       </section>
 
@@ -379,19 +307,14 @@ const SharepointPage = () => {
           <div className="grid lg:grid-cols-2 gap-16">
             <div className="space-y-8">
               <div className="animate-fade-in">
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-100 to-blue-100 text-cyan-700 rounded-full text-sm font-semibold mb-4">
-                  <div className="w-2 h-2 bg-cyan-600 rounded-full"></div>
-                  Microsoft Gold Partner
-                </div>
-                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+<h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                   Development
                   <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-600">
                     Services
                   </span>
                 </h2>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  As a Microsoft Gold partner, Arvish Consulting delivers next generation business solutions 
-                  with certified consultants providing domain expertise and ready-to-use solutions.
+                  Arvish Consulting delivers next-generation business solutions with certified consultants providing domain expertise and ready-to-use frameworks for faster implementation.
                 </p>
               </div>
 
@@ -485,7 +408,7 @@ const SharepointPage = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 text-xl">True Collaboration</h4>
-                    <p className="text-gray-600">Cross-functional teams work from latest document versions with full audit history</p>
+                    <p className="text-gray-600">Cross-functional teams can work on the latest version of documents with complete audit history, ensuring better manageability, higher productivity, full accountability and enhanced operational efficiency.</p>
                   </div>
                 </div>
                 
@@ -546,12 +469,12 @@ const SharepointPage = () => {
                   {[
                     {
                       title: 'Version Upgrade',
-                      description: 'From older SharePoint versions to SharePoint Office 365',
+                      description: 'Our migration services enable seamless upgrade from older SharePoint versions to the latest platforms, including Office 365.',
                       details: 'Assessment, planning, and reporting capabilities for enterprise content consolidation'
                     },
                     {
                       title: 'File System Migration',
-                      description: 'From file servers to SharePoint on-premises or Office 365',
+                      description: 'We also migrate file system content to SharePoint, allowing secure access through web browsers anytime and anywhere.',
                       details: 'Access file system content via web browser anytime, anywhere'
                     }
                   ].map((item, index) => (
@@ -575,9 +498,9 @@ const SharepointPage = () => {
                 
                 <div className="space-y-6 mb-8">
                   <p className="text-gray-700 leading-relaxed">
-                    Develop custom, high productivity business apps with minimal coding. 
-                    Automate data from various sources like SharePoint and deploy instantly 
-                    across mobile and desktop.
+                    Develop custom, high-productivity business applications with minimal coding. 
+                    Integrate data from multiple sources such as SharePoint and deploy instantly 
+                    across mobile and desktop platforms.
                   </p>
                   
                   <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-6 rounded-xl">
@@ -614,7 +537,7 @@ const SharepointPage = () => {
             <div className="inline-flex flex-col md:flex-row items-center gap-8 p-8 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-3xl shadow-xl border border-blue-200">
               <div className="text-left">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Ready to Transform Your Organization?</h3>
-                <p className="text-gray-600">Connect with our SharePoint experts for a customized solution</p>
+                <p className="text-gray-600">Connect with our SharePoint experts to design and implement a solution tailored to your business needs.</p>
               </div>
               <button className="group px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 transform flex items-center gap-3 whitespace-nowrap">
                 Get Started

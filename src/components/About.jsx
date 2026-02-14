@@ -5,7 +5,7 @@ export default function About() {
   const navigate = useNavigate();
   const [hoveredFeature, setHoveredFeature] = useState(null);
   const [isDownloading, setIsDownloading] = useState(false);
-  
+
   const handleDownload = () => {
     setIsDownloading(true);
     const link = document.createElement('a');
@@ -14,7 +14,7 @@ export default function About() {
     link.click();
     setTimeout(() => setIsDownloading(false), 2000);
   };
-  
+
   // Animated background dots
   const [dots, setDots] = useState([]);
 
@@ -32,33 +32,33 @@ export default function About() {
   }, []);
 
   const features = [
-    { 
-      title: "Operational Excellence", 
+    {
+      title: "Operational Excellence",
       icon: "🚀",
       description: "Streamlined processes for maximum efficiency"
     },
-    { 
-      title: "Actionable Insights", 
+    {
+      title: "Actionable Insights",
       icon: "📊",
       description: "Data-driven visibility for informed decisions"
     },
-    { 
-      title: "Customer Excellence", 
+    {
+      title: "Customer Excellence",
       icon: "⭐",
       description: "Exceptional experiences at every touchpoint"
     },
-    { 
-      title: "Quality Development", 
+    {
+      title: "Quality Development",
       icon: "💻",
       description: "High-quality, scalable software solutions"
     },
-    { 
-      title: "Modern Infrastructure", 
+    {
+      title: "Modern Infrastructure",
       icon: "🏗️",
       description: "Integrated, future-ready IT infrastructure"
     },
-    { 
-      title: "Compliant Processes", 
+    {
+      title: "Compliant Processes",
       icon: "✅",
       description: "CMMI compliant systems & methodologies"
     }
@@ -191,7 +191,7 @@ export default function About() {
 
         <div className="relative max-w-7xl mx-auto px-3 xs:px-4 sm:px-6 lg:px-8 py-12 xs:py-16 sm:py-20 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xs:gap-10 sm:gap-12 lg:gap-20 items-center">
-            
+
             {/* Left Content */}
             <div className="relative z-10">
               {/* Badge */}
@@ -217,15 +217,11 @@ export default function About() {
               {/* Description */}
               <div className="space-y-4 xs:space-y-6 mb-8 xs:mb-10">
                 <p className="text-base xs:text-lg text-slate-700 leading-relaxed">
-                  <span className="font-bold text-blue-600">Arvish Consulting Solutions</span> is a premier 
-                  technology partner that delivers value-added innovative IT and software solutions 
-                  designed to optimize costs and maximize ROI for businesses worldwide.
+                  <span className="font-bold text-blue-600">Arvish Consulting</span> is a highly regarded technology and resource partner for businesses across India, offering a wide range of advanced IT and ITES solutions. We serve clients in the IT, government, healthcare, and service verticals with a robust team of highly skilled resources positioned at client sites across seven states (and growing).
                 </p>
-                
+
                 <p className="text-base xs:text-lg text-slate-700 leading-relaxed">
-                  Our client-centered approach, combined with cutting-edge technology and 
-                  customized service plans, drives measurable business success and sustainable 
-                  growth in today's dynamic digital landscape.
+                  We are committed to the development of value by developing appropriate customer-centric strategies of engagement, providing quality services, and undertaking project implementation activities. By focusing on operational excellence, professionalism, and sustainability of relationships, organizations can improve performance to attain strategic objectives
                 </p>
               </div>
 
@@ -237,8 +233,8 @@ export default function About() {
                   { value: "25+", label: "Happy Clients" },
                   { value: "48%", label: "Satisfaction Rate" }
                 ].map((stat, index) => (
-                  <div 
-                    key={index} 
+                  <div
+                    key={index}
                     className="bg-white/80 backdrop-blur-sm p-3 xs:p-4 rounded-xl border border-slate-200 hover-lift hover-glow"
                   >
                     <div className="text-lg xs:text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
@@ -281,10 +277,10 @@ export default function About() {
               <div className="absolute w-[300px] h-[300px] xs:w-[400px] xs:h-[400px] sm:w-[500px] sm:h-[500px] lg:w-[600px] lg:h-[600px]">
                 {/* Outer ring */}
                 <div className="absolute inset-0 border-2 border-dashed border-blue-200/50 rounded-full animate-spin-slow"></div>
-                
+
                 {/* Middle ring */}
                 <div className="absolute inset-6 xs:inset-8 sm:inset-12 border border-dotted border-cyan-200/50 rounded-full animate-spin-reverse"></div>
-                
+
                 {/* Inner ring */}
                 <div className="absolute inset-12 xs:inset-16 sm:inset-24 border border-dashed border-purple-200/50 rounded-full animate-spin-slow"></div>
 
@@ -297,7 +293,7 @@ export default function About() {
                   { icon: "📊", label: "Analytics", color: "from-orange-400 to-amber-400", pos: "top-1/4 left-1/4" },
                   { icon: "🔍", label: "Research", color: "from-pink-400 to-rose-400", pos: "bottom-1/4 right-1/4" }
                 ].map((node, index) => (
-                  <div 
+                  <div
                     key={index}
                     className={`absolute ${node.pos} group`}
                   >
@@ -322,7 +318,7 @@ export default function About() {
                 <div className="relative w-40 h-40 xs:w-48 xs:h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80">
                   {/* Core gradient */}
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-cyan-500 to-purple-500 rounded-full blur-xl opacity-30 animate-pulse-slow"></div>
-                  
+
                   {/* Core border */}
                   <div className="absolute inset-0 border-4 border-transparent rounded-full 
                     bg-gradient-to-r from-blue-500 via-cyan-500 to-purple-500 bg-origin-border 

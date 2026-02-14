@@ -1,0 +1,111 @@
+/* AI Page Mobile Responsive Styles */
+
+@media (max-width: 640px) {
+  /* Container adjustments */
+  .min-h-screen section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Grid layouts */
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  /* Typography */
+  h1 {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+
+  h3 {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+
+  p, li {
+    font-size: 0.875rem !important;
+    line-height: 1.5rem !important;
+  }
+
+  /* Cards and containers */
+  .glass-effect,
+  .rounded-3xl,
+  .rounded-2xl {
+    padding: 1rem !important;
+    border-radius: 1rem !important;
+  }
+
+  /* Spacing */
+  .py-16, .py-20, .py-24 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .px-6, .px-8 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .mb-16, .mb-12, .mb-8 {
+    margin-bottom: 1rem !important;
+  }
+
+  .gap-6, .gap-8, .gap-12 {
+    gap: 1rem !important;
+  }
+
+  /* Stats grid */
+  .grid-cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Text sizes */
+  .text-5xl, .text-6xl, .text-7xl {
+    font-size: 2rem !important;
+  }
+
+  .text-4xl {
+    font-size: 1.75rem !important;
+  }
+
+  .text-3xl {
+    font-size: 1.5rem !important;
+  }
+
+  .text-2xl {
+    font-size: 1.25rem !important;
+  }
+
+  .text-xl {
+    font-size: 1rem !important;
+  }
+
+  /* Buttons and links */
+  .inline-block {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  /* Ensure proper wrapping */
+  * {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .md\\:grid-cols-2,
+  .md\\:grid-cols-4,
+  .md\\:grid-cols-5 {
+    grid-template-columns: 1fr !important;
+  }
+}

@@ -25,11 +25,10 @@ const JobApplication = ({ job, onClose }) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const skillOptions = {
-    'Senior Full Stack Developer': ['React', 'Node.js', 'JavaScript', 'Python', 'MongoDB', 'PostgreSQL', 'AWS', 'Docker'],
-    'AI/ML Engineer': ['Python', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Deep Learning', 'NLP', 'Computer Vision', 'AWS SageMaker'],
-    'DevOps Engineer': ['Docker', 'Kubernetes', 'AWS', 'Jenkins', 'Terraform', 'Ansible', 'Linux', 'CI/CD'],
-    'UI/UX Designer': ['Figma', 'Adobe XD', 'Sketch', 'Prototyping', 'User Research', 'Wireframing', 'Design Systems', 'Usability Testing'],
-    'Data Analyst': ['SQL', 'Python', 'R', 'Tableau', 'Power BI', 'Excel', 'Statistics', 'Data Visualization']
+    'IT Infrastructure Support Engineer': ['Troubleshooting', 'Network Support', 'AD Services', 'Windows Server', 'Linux', 'VMware', 'Backup & Recovery'],
+    'Application Support Engineer': ['Monitoring', 'Issue Resolution', 'Enhancements', 'SQL', 'Application Logs', 'Incident Management', 'ITIL'],
+    'Database Administrator': ['Backup & Recovery', 'Performance Tuning', 'Configuration', 'SQL Server', 'Oracle', 'MySQL', 'PostgreSQL'],
+    'Web & CMS Support Specialist': ['WordPress/Drupal', 'Content Updates', 'UI Enhancements', 'HTML/CSS', 'JavaScript', 'SEO', 'Web Analytics']
   };
 
   const handleInputChange = (e) => {
@@ -85,39 +84,33 @@ const JobApplication = ({ job, onClose }) => {
   };
 
   const jobDetails = {
-    'Senior Full Stack Developer': {
-      id: '1045', experience: '7 - 10 Years', location: 'Chennai, Hyderabad', department: 'Development',
-      postedDays: '7 days ago', postedBy: 'Saravana Kumar', salary: '₹15-25 LPA',
-      description: 'We are looking for an experienced Full Stack Developer to join our dynamic team. The ideal candidate will have expertise in both front-end and back-end technologies, with a strong understanding of modern web development practices.',
-      requirements: ['7+ years of experience in full-stack development', 'Proficiency in React, Node.js, and databases', 'Experience with cloud platforms (AWS/Azure)', 'Strong problem-solving skills']
+    'IT Infrastructure Support Engineer': {
+      id: '1045', experience: 'Relevant Experience', location: 'Client Location', department: 'IT Administration & Support',
+      postedDays: 'Open', postedBy: 'HR Team', salary: 'As per industry standards',
+      description: 'We are looking for an IT Infrastructure Support Engineer to be deployed at client locations. The role involves providing technical support for IT infrastructure, troubleshooting hardware and software issues, and ensuring smooth operations of client IT environments.',
+      requirements: ['Experience in IT infrastructure support and troubleshooting', 'Knowledge of Windows Server, Active Directory, and networking', 'Strong problem-solving and communication skills', 'Ability to work in client-facing environments']
     },
-    'AI/ML Engineer': {
-      id: '1046', experience: '5 - 8 Years', location: 'Bangalore, Hyderabad', department: 'AI & Data Science',
-      postedDays: '5 days ago', postedBy: 'Priya Sharma', salary: '₹20-35 LPA',
-      description: 'Join our AI team to develop cutting-edge machine learning solutions. You will work on innovative projects involving deep learning, natural language processing, and computer vision.',
-      requirements: ['5+ years in AI/ML development', 'Strong Python and ML frameworks knowledge', 'Experience with deep learning and NLP', 'PhD/Masters in relevant field preferred']
+    'Application Support Engineer': {
+      id: '1046', experience: 'Relevant Experience', location: 'Client Location', department: 'Application Services',
+      postedDays: 'Open', postedBy: 'HR Team', salary: 'As per industry standards',
+      description: 'Join our Application Support team to provide L2/L3 support for enterprise applications deployed at customer sites. You will be responsible for monitoring applications, resolving incidents, implementing enhancements, and ensuring SLA compliance.',
+      requirements: ['Experience in application support and maintenance', 'Strong analytical and troubleshooting skills', 'Knowledge of SQL and application logs analysis', 'ITIL framework understanding preferred']
     },
-    'DevOps Engineer': {
-      id: '1047', experience: '4 - 7 Years', location: 'Remote', department: 'Infrastructure',
-      postedDays: '3 days ago', postedBy: 'Rajesh Kumar', salary: '₹12-20 LPA',
-      description: 'We need a skilled DevOps Engineer to streamline our development and deployment processes. Experience with cloud platforms, containerization, and CI/CD pipelines is essential.',
-      requirements: ['4+ years in DevOps/Infrastructure', 'Expertise in Docker, Kubernetes, AWS', 'CI/CD pipeline experience', 'Infrastructure as Code knowledge']
+    'Database Administrator': {
+      id: '1047', experience: 'Relevant Experience', location: 'Hyderabad', department: 'Database Administration',
+      postedDays: 'Open', postedBy: 'HR Team', salary: 'As per industry standards',
+      description: 'We need a Database Administrator to manage and maintain database systems for our clients. Responsibilities include backup and recovery, performance tuning, configuration management, and ensuring database availability and security.',
+      requirements: ['Experience in database administration (SQL Server/Oracle/MySQL)', 'Expertise in backup, recovery, and performance optimization', 'Knowledge of database security and compliance', 'Experience with offshore delivery model']
     },
-    'UI/UX Designer': {
-      id: '1048', experience: '3 - 6 Years', location: 'Hyderabad', department: 'Design',
-      postedDays: '2 days ago', postedBy: 'Anita Reddy', salary: '₹8-15 LPA',
-      description: 'Create exceptional user experiences for our digital products. We are looking for a creative designer with strong skills in user research, wireframing, and prototyping.',
-      requirements: ['3+ years in UI/UX design', 'Proficiency in Figma, Adobe XD', 'User research and testing experience', 'Portfolio showcasing design process']
-    },
-    'Data Analyst': {
-      id: '1049', experience: '2 - 5 Years', location: 'Bangalore', department: 'Analytics',
-      postedDays: '1 day ago', postedBy: 'Vikram Singh', salary: '₹6-12 LPA',
-      description: 'Analyze complex datasets to derive actionable insights for business decisions. Strong skills in SQL, Python, and data visualization tools are required.',
-      requirements: ['2+ years in data analysis', 'Strong SQL and Python skills', 'Experience with BI tools', 'Statistical analysis knowledge']
+    'Web & CMS Support Specialist': {
+      id: '1048', experience: 'Relevant Experience', location: 'Hyderabad', department: 'Corporate Website Support',
+      postedDays: 'Open', postedBy: 'HR Team', salary: 'As per industry standards',
+      description: 'Support and maintain corporate websites and CMS platforms for our enterprise clients. The role involves content updates, UI enhancements, troubleshooting issues, and ensuring website performance and security.',
+      requirements: ['Experience with WordPress, Drupal, or similar CMS platforms', 'Knowledge of HTML, CSS, JavaScript', 'Understanding of web analytics and SEO', 'Ability to work on maintenance contracts']
     }
   };
 
-  const currentJob = jobDetails[job.title] || jobDetails['Senior Full Stack Developer'];
+  const currentJob = jobDetails[job.title] || jobDetails['IT Infrastructure Support Engineer'];
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">

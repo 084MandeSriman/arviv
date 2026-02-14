@@ -53,13 +53,12 @@ export default function WhyChoose() {
                 Your Trusted
               </span>
               <br />
-              <span className="text-slate-900">Digital Partner</span>
+              <span className="text-slate-900">IT & Resourcing Partner</span>
             </h1>
 
             {/* Description */}
             <p className="text-base xs:text-lg text-slate-600 mb-8 xs:mb-10 leading-relaxed">
-              We transform complex business challenges into scalable digital solutions. 
-              Combining strategic insight with technical excellence to drive measurable impact.
+              We help organizations achieve their strategic goals through a strong workforce, proven engagement models and a customer-centric approach. Our focus on quality, professional integrity and timely delivery enables long-term and successful partnerships.
             </p>
 
             {/* Stats */}

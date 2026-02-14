@@ -1435,292 +1435,297 @@ export default function ServiceDetails() {
                 `}</style>
 
                 {/* ================= ARTIFICIAL INTELLIGENCE ================= */}
-                {serviceName === "artificial-intelligence" && (
-                    <>
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-12 sm:mb-16 lg:mb-20">
-                            <div className="animate-fadeInLeft">
-                                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-900 mb-4 sm:mb-6 hover:text-blue-700 transition-colors duration-300 leading-tight">
-                                    Artificial Intelligence
-                                </h1>
-                                <p className="italic text-lg sm:text-xl text-slate-600 mb-6 sm:mb-8 hover:text-slate-800 transition-colors duration-300">
-                                    Transform Your Business with Next-Generation AI Solutions
-                                </p>
-                                <p className="text-base sm:text-lg text-slate-700 leading-relaxed mb-6">
-                                    Unlock unprecedented growth and efficiency with our cutting-edge AI implementations.
-                                    From intelligent automation to predictive insights, we deliver AI solutions that drive
-                                    measurable ROI and competitive advantage across industries.
-                                </p>
-                                <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 sm:p-6 rounded-xl border-l-4 border-blue-500">
-                                    <div className="flex items-center gap-3 mb-2">
-                                        <span className="text-2xl">🚀</span>
-                                        <span className="font-semibold text-blue-900">Proven Results</span>
-                                    </div>
-                                    <p className="text-slate-700">Our clients achieve up to <span className="font-bold text-blue-600">40% cost reduction</span> and <span className="font-bold text-blue-600">3x faster decision-making</span> with AI implementation.</p>
-                                </div>
-                            </div>
-                            <AIIllustration />
+{serviceName === "artificial-intelligence" && (
+    <>
+        {/* Hero Section */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center mb-8 sm:mb-12 lg:mb-20">
+            <div className="animate-fadeInLeft order-2 lg:order-1">
+                <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-blue-900 mb-3 sm:mb-6 hover:text-blue-700 transition-colors duration-300 leading-snug sm:leading-tight">
+                    Artificial Intelligence
+                </h1>
+                <p className="italic text-base sm:text-lg lg:text-xl text-slate-600 mb-4 sm:mb-8 hover:text-slate-800 transition-colors duration-300">
+                    Transform Your Business with Next-Generation AI Solutions
+                </p>
+                <p className="text-sm sm:text-base lg:text-lg text-slate-700 leading-relaxed mb-4 lg:mb-6">
+                    Unlock unprecedented growth and efficiency with our cutting-edge AI implementations.
+                    From intelligent automation to predictive insights, we deliver AI solutions that drive
+                    measurable ROI and competitive advantage across industries.
+                </p>
+                <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 sm:p-6 rounded-xl border-l-4 border-blue-500">
+                    <div className="flex items-center gap-3 mb-2">
+                        <span className="text-xl sm:text-2xl">🚀</span>
+                        <span className="font-semibold text-blue-900 text-sm sm:text-base">Proven Results</span>
+                    </div>
+                    <p className="text-slate-700 text-sm sm:text-base">Our clients achieve up to <span className="font-bold text-blue-600">40% cost reduction</span> and <span className="font-bold text-blue-600">3x faster decision-making</span> with AI implementation.</p>
+                </div>
+            </div>
+            <div className="order-1 lg:order-2 mb-6 lg:mb-0">
+                <AIIllustration />
+            </div>
+        </div>
+
+        {/* ================= OUR AI TECHNOLOGY STACK ================= */}
+        <section className="mt-12 sm:mt-16 lg:mt-24 py-8 sm:py-12 lg:py-20 px-4 sm:px-6 bg-white">
+            <div className="max-w-7xl mx-auto">
+                <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-900 mb-3 sm:mb-4 hover:text-blue-700 transition-colors duration-300">
+                        Our AI Technology Stack
+                    </h2>
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
+                    <div className="text-slate-700 leading-relaxed space-y-4 sm:space-y-6 animate-fadeInLeft order-2 lg:order-1">
+                        <p className="hover:text-slate-900 transition-colors duration-300 text-sm sm:text-base">
+                            At Arvish Consulting, we leverage a <b className="hover:text-blue-700 transition-colors duration-200">robust, future-ready AI technology stack</b>
+                            that combines large language models, agentic AI frameworks, and
+                            enterprise-grade cloud infrastructure.
+                        </p>
+
+                        <p className="hover:text-slate-900 transition-colors duration-300 text-sm sm:text-base">
+                            This enables us to build scalable, secure, and intelligent AI systems
+                            that integrate seamlessly within enterprise ecosystems.
+                        </p>
+
+                        <h3 className="text-base sm:text-lg font-semibold text-blue-900 mt-4 sm:mt-6 hover:text-blue-700 transition-colors duration-300">
+                            Large Language Models (LLMs)
+                        </h3>
+
+                        <ul className="list-disc pl-4 sm:pl-6 space-y-2 sm:space-y-3">
+                            <li className="hover:translate-x-2 transition-transform duration-300 text-sm sm:text-base">
+                                Expertise across major foundation models and APIs including
+                                <b className="hover:text-blue-700 transition-colors duration-200"> OpenAI GPT</b>, <b className="hover:text-blue-700 transition-colors duration-200">Anthropic Claude</b>, <b className="hover:text-blue-700 transition-colors duration-200">Google Gemini</b>,
+                                <b className="hover:text-blue-700 transition-colors duration-200"> Microsoft Copilot</b>, and <b className="hover:text-blue-700 transition-colors duration-200">Meta LLaMA</b> for enterprise-grade
+                                reasoning, language understanding, and generation.
+                            </li>
+                        </ul>
+
+                        <h3 className="text-base sm:text-lg font-semibold text-blue-900 mt-4 sm:mt-6 hover:text-blue-700 transition-colors duration-300">
+                            Agentic AI Frameworks
+                        </h3>
+
+                        <ul className="list-disc pl-4 sm:pl-6 space-y-2 sm:space-y-3">
+                            <li className="hover:translate-x-2 transition-transform duration-300 text-sm sm:text-base">
+                                Design and deployment of <b className="hover:text-blue-700 transition-colors duration-200">autonomous, goal-oriented AI agents</b>
+                                using modern agentic frameworks and orchestration layers.
+                            </li>
+                            <li className="hover:translate-x-2 transition-transform duration-300 text-sm sm:text-base">
+                                <b className="hover:text-blue-700 transition-colors duration-200">CrewAI</b> and <b className="hover:text-blue-700 transition-colors duration-200">LangChain</b> for multi-agent coordination and
+                                contextual orchestration.
+                            </li>
+                            <li className="hover:translate-x-2 transition-transform duration-300 text-sm sm:text-base">
+                                <b className="hover:text-blue-700 transition-colors duration-200">Strand Agents</b> for modular, composable AI workflows.
+                            </li>
+                            <li className="hover:translate-x-2 transition-transform duration-300 text-sm sm:text-base">
+                                <b className="hover:text-blue-700 transition-colors duration-200">Google AI Development Kit (ADK)</b>, <b className="hover:text-blue-700 transition-colors duration-200">Model Context Protocol (MCP)</b>,
+                                and <b className="hover:text-blue-700 transition-colors duration-200">ADA Protocol</b> for interoperability across tools and systems.
+                            </li>
+                            <li className="hover:translate-x-2 transition-transform duration-300 text-sm sm:text-base">
+                                <b className="hover:text-blue-700 transition-colors duration-200">API Park</b> for secure agent-to-agent and service orchestration
+                                across distributed enterprise environments.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="flex justify-center animate-fadeInRight order-1 lg:order-2 mb-8 lg:mb-0">
+                        <div className="w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[500px]">
+                            <AITechStackIllustration />
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                        {/* ================= OUR AI TECHNOLOGY STACK ================= */}
-                        <section className="mt-16 sm:mt-20 lg:mt-24 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-white">
-                            <div className="max-w-7xl mx-auto">
-                                <div className="text-center mb-12 sm:mb-16">
-                                    <h2 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-4 hover:text-blue-700 transition-colors duration-300">
-                                        Our AI Technology Stack
-                                    </h2>
-                                </div>
+        {/* ================= CORE AI CAPABILITIES ================= */}
+        <section className="mt-12 sm:mt-16 lg:mt-24 py-8 sm:py-12 lg:py-20 px-4 sm:px-6 bg-slate-50 rounded-xl">
+            <div className="max-w-7xl mx-auto">
+                <div className="text-center mb-8 sm:mb-12 lg:mb-16 animate-fadeInUp">
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-900 mb-3 sm:mb-4 hover:text-blue-700 transition-colors duration-300">
+                        Core AI Capabilities
+                    </h2>
+                    <div className="flex items-center justify-center gap-3">
+                        <span className="w-12 sm:w-20 h-1 bg-green-200 rounded"></span>
+                        <span className="w-2 sm:w-3 h-2 sm:h-3 bg-red-600 rounded-full animate-pulse"></span>
+                        <span className="w-12 sm:w-20 h-1 bg-green-200 rounded"></span>
+                    </div>
+                </div>
 
-                                <div className="grid md:grid-cols-2 gap-16 items-start">
-                                    <div className="text-slate-700 leading-relaxed space-y-6 animate-fadeInLeft">
-                                        <p className="hover:text-slate-900 transition-colors duration-300">
-                                            At Arvish Consulting, we leverage a <b class="hover:text-blue-700 transition-colors duration-200">robust, future-ready AI technology stack</b>
-                                            that combines large language models, agentic AI frameworks, and
-                                            enterprise-grade cloud infrastructure.
-                                        </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+                    <div className="flex gap-4 sm:gap-6 hover-lift bg-white p-4 sm:p-6 rounded-xl shadow-md animate-fadeInUp stagger-1 group">
+                        <div className="text-blue-600 text-3xl sm:text-4xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0">💡</div>
+                        <div>
+                            <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-blue-900 mb-1 sm:mb-2 group-hover:text-blue-700 transition-colors duration-300">
+                                Generative AI & LLM Solutions
+                            </h3>
+                            <p className="text-slate-700 leading-relaxed text-xs sm:text-sm lg:text-base group-hover:text-slate-900 transition-colors duration-300">
+                                Create intelligent chatbots, content generators, and AI assistants
+                                for natural, human-like interactions across customer support, sales,
+                                and knowledge management.
+                            </p>
+                        </div>
+                    </div>
 
-                                        <p className="hover:text-slate-900 transition-colors duration-300">
-                                            This enables us to build scalable, secure, and intelligent AI systems
-                                            that integrate seamlessly within enterprise ecosystems.
-                                        </p>
+                    <div className="flex gap-4 sm:gap-6 hover-lift bg-white p-4 sm:p-6 rounded-xl shadow-md animate-fadeInUp stagger-2 group">
+                        <div className="text-blue-600 text-3xl sm:text-4xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0">📊</div>
+                        <div>
+                            <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-blue-900 mb-1 sm:mb-2 group-hover:text-blue-700 transition-colors duration-300">
+                                Predictive Analytics & Machine Learning
+                            </h3>
+                            <p className="text-slate-700 leading-relaxed text-xs sm:text-sm lg:text-base group-hover:text-slate-900 transition-colors duration-300">
+                                Uncover trends, predict demand, detect anomalies, and optimize
+                                operations using supervised and unsupervised learning.
+                            </p>
+                        </div>
+                    </div>
 
-                                        <h3 className="text-lg font-semibold text-blue-900 mt-6 hover:text-blue-700 transition-colors duration-300">
-                                            Large Language Models (LLMs)
-                                        </h3>
+                    <div className="flex gap-4 sm:gap-6 hover-lift bg-white p-4 sm:p-6 rounded-xl shadow-md animate-fadeInUp stagger-3 group">
+                        <div className="text-blue-600 text-3xl sm:text-4xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0">📚</div>
+                        <div>
+                            <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-blue-900 mb-1 sm:mb-2 group-hover:text-blue-700 transition-colors duration-300">
+                                Retrieval-Augmented Generation (RAG)
+                            </h3>
+                            <p className="text-slate-700 leading-relaxed text-xs sm:text-sm lg:text-base group-hover:text-slate-900 transition-colors duration-300">
+                                Integrate AI with internal knowledge bases and enterprise data
+                                for accurate, context-aware, and secure AI responses.
+                            </p>
+                        </div>
+                    </div>
 
-                                        <ul className="list-disc pl-6 space-y-3">
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                Expertise across major foundation models and APIs including
-                                                <b class="hover:text-blue-700 transition-colors duration-200"> OpenAI GPT</b>, <b class="hover:text-blue-700 transition-colors duration-200">Anthropic Claude</b>, <b class="hover:text-blue-700 transition-colors duration-200">Google Gemini</b>,
-                                                <b class="hover:text-blue-700 transition-colors duration-200"> Microsoft Copilot</b>, and <b class="hover:text-blue-700 transition-colors duration-200">Meta LLaMA</b> for enterprise-grade
-                                                reasoning, language understanding, and generation.
-                                            </li>
-                                        </ul>
+                    <div className="flex gap-4 sm:gap-6 hover-lift bg-white p-4 sm:p-6 rounded-xl shadow-md animate-fadeInUp stagger-4 group">
+                        <div className="text-blue-600 text-3xl sm:text-4xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0">👁️</div>
+                        <div>
+                            <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-blue-900 mb-1 sm:mb-2 group-hover:text-blue-700 transition-colors duration-300">
+                                Computer Vision & Natural Language Processing (NLP)
+                            </h3>
+                            <p className="text-slate-700 leading-relaxed text-xs sm:text-sm lg:text-base group-hover:text-slate-900 transition-colors duration-300">
+                                Leverage image and language AI for document analysis, OCR,
+                                sentiment detection, entity extraction, and translation.
+                            </p>
+                        </div>
+                    </div>
 
-                                        <h3 className="text-lg font-semibold text-blue-900 mt-6 hover:text-blue-700 transition-colors duration-300">
-                                            Agentic AI Frameworks
-                                        </h3>
+                    <div className="flex gap-4 sm:gap-6 hover-lift bg-white p-4 sm:p-6 rounded-xl shadow-md animate-fadeInUp stagger-5 group">
+                        <div className="text-blue-600 text-3xl sm:text-4xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0">🤖</div>
+                        <div>
+                            <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-blue-900 mb-1 sm:mb-2 group-hover:text-blue-700 transition-colors duration-300">
+                                AI Agents & Workflow Automation
+                            </h3>
+                            <p className="text-slate-700 leading-relaxed text-xs sm:text-sm lg:text-base group-hover:text-slate-900 transition-colors duration-300">
+                                Automate complex multi-step tasks by integrating AI agents
+                                with enterprise systems like APIs, CRM, and ERP platforms.
+                            </p>
+                        </div>
+                    </div>
 
-                                        <ul className="list-disc pl-6 space-y-3">
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                Design and deployment of <b class="hover:text-blue-700 transition-colors duration-200">autonomous, goal-oriented AI agents</b>
-                                                using modern agentic frameworks and orchestration layers.
-                                            </li>
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                <b class="hover:text-blue-700 transition-colors duration-200">CrewAI</b> and <b class="hover:text-blue-700 transition-colors duration-200">LangChain</b> for multi-agent coordination and
-                                                contextual orchestration.
-                                            </li>
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                <b class="hover:text-blue-700 transition-colors duration-200">Strand Agents</b> for modular, composable AI workflows.
-                                            </li>
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                <b class="hover:text-blue-700 transition-colors duration-200">Google AI Development Kit (ADK)</b>, <b class="hover:text-blue-700 transition-colors duration-200">Model Context Protocol (MCP)</b>,
-                                                and <b class="hover:text-blue-700 transition-colors duration-200">ADA Protocol</b> for interoperability across tools and systems.
-                                            </li>
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                <b class="hover:text-blue-700 transition-colors duration-200">API Park</b> for secure agent-to-agent and service orchestration
-                                                across distributed enterprise environments.
-                                            </li>
-                                        </ul>
-                                    </div>
+                    <div className="flex gap-4 sm:gap-6 hover-lift bg-white p-4 sm:p-6 rounded-xl shadow-md animate-fadeInUp stagger-6 group">
+                        <div className="text-blue-600 text-3xl sm:text-4xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0">💻</div>
+                        <div>
+                            <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-blue-900 mb-1 sm:mb-2 group-hover:text-blue-700 transition-colors duration-300">
+                                AI-Assisted Software Development
+                            </h3>
+                            <p className="text-slate-700 leading-relaxed text-xs sm:text-sm lg:text-base group-hover:text-slate-900 transition-colors duration-300">
+                                Boost developer productivity with AI tools for coding,
+                                debugging, and testing—ensuring faster delivery and
+                                higher code quality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                                    <div className="flex justify-center animate-fadeInRight">
-                                        <AITechStackIllustration />
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+        {/* ================= AI MATURITY MODEL ================= */}
+        <section className="mt-12 sm:mt-16 lg:mt-24 py-8 sm:py-12 lg:py-20 px-4 sm:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 relative overflow-hidden">
+            {/* Background Animation - Hidden on mobile for performance */}
+            <div className="absolute inset-0 opacity-5 sm:opacity-10">
+                <svg className="w-full h-full hidden sm:block" viewBox="0 0 1000 1000">
+                    <defs>
+                        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stopColor="#3b82f6" />
+                            <stop offset="50%" stopColor="#8b5cf6" />
+                            <stop offset="100%" stopColor="#06b6d4" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="200" cy="200" r="100" fill="url(#bgGrad)" opacity="0.3" className="animate-pulse">
+                        <animateTransform attributeName="transform" type="translate" values="0,0; 50,30; 0,0" dur="8s" repeatCount="indefinite" />
+                    </circle>
+                    <circle cx="800" cy="300" r="80" fill="url(#bgGrad)" opacity="0.2" className="animate-bounce">
+                        <animateTransform attributeName="transform" type="translate" values="0,0; -30,50; 0,0" dur="10s" repeatCount="indefinite" />
+                    </circle>
+                    <circle cx="600" cy="800" r="120" fill="url(#bgGrad)" opacity="0.25" className="animate-pulse">
+                        <animateTransform attributeName="transform" type="translate" values="0,0; 40,-20; 0,0" dur="12s" repeatCount="indefinite" />
+                    </circle>
+                </svg>
+            </div>
 
-                        {/* ================= CORE AI CAPABILITIES ================= */}
-                        <section className="mt-24 py-20 px-6 bg-slate-50 rounded-xl">
-                            <div className="max-w-7xl mx-auto">
-                                <div className="text-center mb-16 animate-fadeInUp">
-                                    <h2 className="text-3xl font-bold text-blue-900 mb-4 hover:text-blue-700 transition-colors duration-300">
-                                        Core AI Capabilities
-                                    </h2>
-                                    <div className="flex items-center justify-center gap-3">
-                                        <span className="w-20 h-1 bg-green-200 rounded"></span>
-                                        <span className="w-3 h-3 bg-red-600 rounded-full animate-pulse"></span>
-                                        <span className="w-20 h-1 bg-green-200 rounded"></span>
-                                    </div>
-                                </div>
+            <div className="max-w-7xl mx-auto relative z-10">
+                <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-blue-900 mb-3 sm:mb-6 hover:text-blue-700 transition-colors duration-300 animate-fadeInUp">
+                        AI Maturity Model for Enterprises
+                    </h2>
+                    <p className="text-sm sm:text-base lg:text-lg xl:text-xl text-slate-600 max-w-3xl mx-auto animate-fadeInUp stagger-1">
+                        Navigate your AI transformation journey with our comprehensive maturity framework
+                    </p>
+                </div>
 
-                                <div className="grid md:grid-cols-2 gap-12">
-                                    <div className="flex gap-6 hover-lift bg-white p-6 rounded-xl shadow-md animate-fadeInUp stagger-1 group">
-                                        <div className="text-blue-600 text-4xl group-hover:scale-110 transition-transform duration-300">💡</div>
-                                        <div>
-                                            <h3 className="text-lg font-semibold text-blue-900 mb-2 group-hover:text-blue-700 transition-colors duration-300">
-                                                Generative AI & LLM Solutions
-                                            </h3>
-                                            <p className="text-slate-700 leading-relaxed group-hover:text-slate-900 transition-colors duration-300">
-                                                Create intelligent chatbots, content generators, and AI assistants
-                                                for natural, human-like interactions across customer support, sales,
-                                                and knowledge management.
-                                            </p>
-                                        </div>
-                                    </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
+                    {/* Enhanced AI Maturity SVG Illustration */}
+                    <div className="flex justify-center animate-fadeInLeft order-2 lg:order-1">
+                        <div className="relative w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[500px] aspect-square">
+                            <svg viewBox="0 0 500 500" className="w-full h-full">
+                                <defs>
+                                    {/* Gradients */}
+                                    <radialGradient id="centerGrad" cx="50%" cy="50%" r="50%">
+                                        <stop offset="0%" stopColor="#3b82f6" />
+                                        <stop offset="100%" stopColor="#1e40af" />
+                                    </radialGradient>
+                                    <linearGradient id="stage1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stopColor="#ef4444" />
+                                        <stop offset="100%" stopColor="#dc2626" />
+                                    </linearGradient>
+                                    <linearGradient id="stage2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stopColor="#f59e0b" />
+                                        <stop offset="100%" stopColor="#d97706" />
+                                    </linearGradient>
+                                    <linearGradient id="stage3" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stopColor="#3b82f6" />
+                                        <stop offset="100%" stopColor="#1d4ed8" />
+                                    </linearGradient>
+                                    <linearGradient id="stage4" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stopColor="#10b981" />
+                                        <stop offset="100%" stopColor="#059669" />
+                                    </linearGradient>
+                                    <linearGradient id="stage5" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stopColor="#8b5cf6" />
+                                        <stop offset="100%" stopColor="#7c3aed" />
+                                    </linearGradient>
+                                    
+                                    {/* Filters for 3D effects - simplified on mobile */}
+                                    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+                                        <feDropShadow dx="2" dy="2" stdDeviation="2" floodColor="#000" floodOpacity="0.2"/>
+                                    </filter>
+                                    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                                        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                                        <feMerge>
+                                            <feMergeNode in="coloredBlur"/>
+                                            <feMergeNode in="SourceGraphic"/>
+                                        </feMerge>
+                                    </filter>
+                                </defs>
 
-                                    <div className="flex gap-6 hover-lift bg-white p-6 rounded-xl shadow-md animate-fadeInUp stagger-2 group">
-                                        <div className="text-blue-600 text-4xl group-hover:scale-110 transition-transform duration-300">📊</div>
-                                        <div>
-                                            <h3 className="text-lg font-semibold text-blue-900 mb-2 group-hover:text-blue-700 transition-colors duration-300">
-                                                Predictive Analytics & Machine Learning
-                                            </h3>
-                                            <p className="text-slate-700 leading-relaxed group-hover:text-slate-900 transition-colors duration-300">
-                                                Uncover trends, predict demand, detect anomalies, and optimize
-                                                operations using supervised and unsupervised learning.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex gap-6 hover-lift bg-white p-6 rounded-xl shadow-md animate-fadeInUp stagger-3 group">
-                                        <div className="text-blue-600 text-4xl group-hover:scale-110 transition-transform duration-300">📚</div>
-                                        <div>
-                                            <h3 className="text-lg font-semibold text-blue-900 mb-2 group-hover:text-blue-700 transition-colors duration-300">
-                                                Retrieval-Augmented Generation (RAG)
-                                            </h3>
-                                            <p className="text-slate-700 leading-relaxed group-hover:text-slate-900 transition-colors duration-300">
-                                                Integrate AI with internal knowledge bases and enterprise data
-                                                for accurate, context-aware, and secure AI responses.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex gap-6 hover-lift bg-white p-6 rounded-xl shadow-md animate-fadeInUp stagger-4 group">
-                                        <div className="text-blue-600 text-4xl group-hover:scale-110 transition-transform duration-300">👁️</div>
-                                        <div>
-                                            <h3 className="text-lg font-semibold text-blue-900 mb-2 group-hover:text-blue-700 transition-colors duration-300">
-                                                Computer Vision & Natural Language Processing (NLP)
-                                            </h3>
-                                            <p className="text-slate-700 leading-relaxed group-hover:text-slate-900 transition-colors duration-300">
-                                                Leverage image and language AI for document analysis, OCR,
-                                                sentiment detection, entity extraction, and translation.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex gap-6 hover-lift bg-white p-6 rounded-xl shadow-md animate-fadeInUp stagger-5 group">
-                                        <div className="text-blue-600 text-4xl group-hover:scale-110 transition-transform duration-300">🤖</div>
-                                        <div>
-                                            <h3 className="text-lg font-semibold text-blue-900 mb-2 group-hover:text-blue-700 transition-colors duration-300">
-                                                AI Agents & Workflow Automation
-                                            </h3>
-                                            <p className="text-slate-700 leading-relaxed group-hover:text-slate-900 transition-colors duration-300">
-                                                Automate complex multi-step tasks by integrating AI agents
-                                                with enterprise systems like APIs, CRM, and ERP platforms.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="flex gap-6 hover-lift bg-white p-6 rounded-xl shadow-md animate-fadeInUp stagger-6 group">
-                                        <div className="text-blue-600 text-4xl group-hover:scale-110 transition-transform duration-300">💻</div>
-                                        <div>
-                                            <h3 className="text-lg font-semibold text-blue-900 mb-2 group-hover:text-blue-700 transition-colors duration-300">
-                                                AI-Assisted Software Development
-                                            </h3>
-                                            <p className="text-slate-700 leading-relaxed group-hover:text-slate-900 transition-colors duration-300">
-                                                Boost developer productivity with AI tools for coding,
-                                                debugging, and testing—ensuring faster delivery and
-                                                higher code quality.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        {/* ================= AI MATURITY MODEL ================= */}
-                        <section className="mt-24 py-20 px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 relative overflow-hidden">
-                            {/* Background Animation */}
-                            <div className="absolute inset-0 opacity-10">
-                                <svg className="w-full h-full" viewBox="0 0 1000 1000">
-                                    <defs>
-                                        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                            <stop offset="0%" stopColor="#3b82f6" />
-                                            <stop offset="50%" stopColor="#8b5cf6" />
-                                            <stop offset="100%" stopColor="#06b6d4" />
-                                        </linearGradient>
-                                    </defs>
-                                    <circle cx="200" cy="200" r="100" fill="url(#bgGrad)" opacity="0.3" className="animate-pulse">
-                                        <animateTransform attributeName="transform" type="translate" values="0,0; 50,30; 0,0" dur="8s" repeatCount="indefinite" />
+                                {/* Central AI Core */}
+                                <g transform="translate(250,250)">
+                                    <circle r="80" fill="url(#centerGrad)" filter="url(#shadow)" className="animate-pulse">
+                                        <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="20s" repeatCount="indefinite" />
                                     </circle>
-                                    <circle cx="800" cy="300" r="80" fill="url(#bgGrad)" opacity="0.2" className="animate-bounce">
-                                        <animateTransform attributeName="transform" type="translate" values="0,0; -30,50; 0,0" dur="10s" repeatCount="indefinite" />
+                                    <circle r="60" fill="none" stroke="#60a5fa" strokeWidth="2" strokeDasharray="5,5" opacity="0.6">
+                                        <animateTransform attributeName="transform" type="rotate" values="360; 0" dur="15s" repeatCount="indefinite" />
                                     </circle>
-                                    <circle cx="600" cy="800" r="120" fill="url(#bgGrad)" opacity="0.25" className="animate-pulse">
-                                        <animateTransform attributeName="transform" type="translate" values="0,0; 40,-20; 0,0" dur="12s" repeatCount="indefinite" />
-                                    </circle>
-                                </svg>
-                            </div>
+                                    <text textAnchor="middle" dy="-10" fill="white" fontSize="16" fontWeight="bold">AI</text>
+                                    <text textAnchor="middle" dy="10" fill="white" fontSize="12" opacity="0.8">Maturity</text>
+                                </g>
 
-                            <div className="max-w-7xl mx-auto relative z-10">
-                                <div className="text-center mb-16">
-                                    <h2 className="text-4xl font-bold text-blue-900 mb-6 hover:text-blue-700 transition-colors duration-300 animate-fadeInUp">
-                                        AI Maturity Model for Enterprises
-                                    </h2>
-                                    <p className="text-xl text-slate-600 max-w-3xl mx-auto animate-fadeInUp stagger-1">
-                                        Navigate your AI transformation journey with our comprehensive maturity framework
-                                    </p>
-                                </div>
-
-                                <div className="grid md:grid-cols-2 gap-16 items-center">
-                                    {/* Enhanced AI Maturity SVG Illustration */}
-                                    <div className="flex justify-center animate-fadeInLeft">
-                                        <div className="relative w-[500px] h-[500px]">
-                                            <svg viewBox="0 0 500 500" className="w-full h-full">
-                                                <defs>
-                                                    {/* Gradients */}
-                                                    <radialGradient id="centerGrad" cx="50%" cy="50%" r="50%">
-                                                        <stop offset="0%" stopColor="#3b82f6" />
-                                                        <stop offset="100%" stopColor="#1e40af" />
-                                                    </radialGradient>
-                                                    <linearGradient id="stage1" x1="0%" y1="0%" x2="100%" y2="0%">
-                                                        <stop offset="0%" stopColor="#ef4444" />
-                                                        <stop offset="100%" stopColor="#dc2626" />
-                                                    </linearGradient>
-                                                    <linearGradient id="stage2" x1="0%" y1="0%" x2="100%" y2="0%">
-                                                        <stop offset="0%" stopColor="#f59e0b" />
-                                                        <stop offset="100%" stopColor="#d97706" />
-                                                    </linearGradient>
-                                                    <linearGradient id="stage3" x1="0%" y1="0%" x2="100%" y2="0%">
-                                                        <stop offset="0%" stopColor="#3b82f6" />
-                                                        <stop offset="100%" stopColor="#1d4ed8" />
-                                                    </linearGradient>
-                                                    <linearGradient id="stage4" x1="0%" y1="0%" x2="100%" y2="0%">
-                                                        <stop offset="0%" stopColor="#10b981" />
-                                                        <stop offset="100%" stopColor="#059669" />
-                                                    </linearGradient>
-                                                    <linearGradient id="stage5" x1="0%" y1="0%" x2="100%" y2="0%">
-                                                        <stop offset="0%" stopColor="#8b5cf6" />
-                                                        <stop offset="100%" stopColor="#7c3aed" />
-                                                    </linearGradient>
-                                                    
-                                                    {/* Filters for 3D effects */}
-                                                    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
-                                                        <feDropShadow dx="3" dy="3" stdDeviation="3" floodColor="#000" floodOpacity="0.3"/>
-                                                    </filter>
-                                                    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-                                                        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-                                                        <feMerge>
-                                                            <feMergeNode in="coloredBlur"/>
-                                                            <feMergeNode in="SourceGraphic"/>
-                                                        </feMerge>
-                                                    </filter>
-                                                </defs>
-
-                                                {/* Central AI Core */}
-                                                <g transform="translate(250,250)">
-                                                    <circle r="80" fill="url(#centerGrad)" filter="url(#shadow)" className="animate-pulse">
-                                                        <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="20s" repeatCount="indefinite" />
-                                                    </circle>
-                                                    <circle r="60" fill="none" stroke="#60a5fa" strokeWidth="2" strokeDasharray="5,5" opacity="0.6">
-                                                        <animateTransform attributeName="transform" type="rotate" values="360; 0" dur="15s" repeatCount="indefinite" />
-                                                    </circle>
-                                                    <text textAnchor="middle" dy="-10" fill="white" fontSize="16" fontWeight="bold">AI</text>
-                                                    <text textAnchor="middle" dy="10" fill="white" fontSize="12" opacity="0.8">Maturity</text>
-                                                </g>
-
-                                                {/* Maturity Stages - Orbiting */}
-                                                <g transform="translate(250,250)">
+                                {/* Maturity Stages - Orbiting */}
+                                <g transform="translate(250,250)">
                                                     <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="30s" repeatCount="indefinite" />
                                                     
                                                     {/* Stage 1: Awareness */}
@@ -1769,8 +1774,8 @@ export default function ServiceDetails() {
                                                     </g>
                                                 </g>
 
-                                                {/* Connection Lines */}
-                                                <g transform="translate(250,250)" opacity="0.3">
+                                {/* Connection Lines - simplified on mobile */}
+                                <g transform="translate(250,250)" opacity="0.3">
                                                     <line x1="0" y1="-150" x2="0" y2="150" stroke="#8b5cf6" strokeWidth="2" strokeDasharray="5,5">
                                                         <animate attributeName="stroke-dashoffset" values="0; 10" dur="2s" repeatCount="indefinite" />
                                                     </line>
@@ -1782,23 +1787,23 @@ export default function ServiceDetails() {
                                                     </circle>
                                                 </g>
 
-                                                {/* Floating Progress Indicators */}
-                                                <g transform="translate(400,100)">
+                                {/* Floating Progress Indicators - hidden on mobile */}
+                                <g className="hidden sm:block" transform="translate(400,100)">
                                                     <rect width="60" height="20" rx="10" fill="#10b981" filter="url(#shadow)">
                                                         <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="4s" repeatCount="indefinite" />
                                                     </rect>
                                                     <text x="30" y="14" textAnchor="middle" fill="white" fontSize="10" fontWeight="bold">75% ROI</text>
                                                 </g>
 
-                                                <g transform="translate(50,400)">
+                                <g className="hidden sm:block" transform="translate(50,400)">
                                                     <rect width="80" height="25" rx="12" fill="#3b82f6" filter="url(#shadow)">
                                                         <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="5s" repeatCount="indefinite" />
                                                     </rect>
                                                     <text x="40" y="16" textAnchor="middle" fill="white" fontSize="10" fontWeight="bold">Enterprise</text>
                                                 </g>
 
-                                                {/* Data Flow Animation */}
-                                                <g opacity="0.6">
+                                {/* Data Flow Animation - simplified on mobile */}
+                                <g opacity="0.6" className="hidden sm:block">
                                                     <circle r="3" fill="#06b6d4">
                                                         <animateMotion dur="6s" repeatCount="indefinite">
                                                             <path d="M 100,250 Q 250,100 400,250 Q 250,400 100,250" />
@@ -1810,192 +1815,204 @@ export default function ServiceDetails() {
                                                         </animateMotion>
                                                     </circle>
                                                 </g>
-                                            </svg>
-                                        </div>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div className="text-slate-700 leading-relaxed space-y-4 sm:space-y-6 animate-fadeInRight order-1 lg:order-2">
+                        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 sm:p-6 rounded-xl border-l-4 border-blue-500 animate-fadeInUp">
+                            <h3 className="font-bold text-blue-900 text-base sm:text-lg lg:text-xl mb-2 sm:mb-3">
+                                🚀 Accelerate Your AI Journey
+                            </h3>
+                            <p className="text-slate-700 text-sm sm:text-base">
+                                From Exploration to Enterprise-Scale Transformation
+                            </p>
+                        </div>
+
+                        <p className="animate-fadeInUp stagger-1 text-sm sm:text-base">
+                            Arvish Consulting partners with enterprises at every stage of their AI maturity.
+                            Whether you're experimenting with proof of concept or operationalizing
+                            AI across business units, our AI Maturity Framework helps assess
+                            readiness, define a roadmap, and drive measurable impact.
+                        </p>
+
+                        <div className="space-y-3 sm:space-y-4 animate-fadeInUp stagger-2">
+                            <h3 className="text-base sm:text-lg font-semibold text-blue-900 mt-4 sm:mt-6">
+                                Our AI Maturity Stages:
+                            </h3>
+
+                            <div className="space-y-3 sm:space-y-4">
+                                <div className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-red-50 to-red-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
+                                    <div className="w-6 h-6 sm:w-8 sm:h-8 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-xs sm:text-sm flex-shrink-0">1</div>
+                                    <div>
+                                        <h4 className="font-semibold text-red-700 text-sm sm:text-base">Awareness & Assessment</h4>
+                                        <p className="text-xs sm:text-sm text-slate-600">Identify opportunities and evaluate current data and process readiness.</p>
                                     </div>
+                                </div>
 
-                                    <div className="text-slate-700 leading-relaxed space-y-6 animate-fadeInRight">
-                                        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border-l-4 border-blue-500 animate-fadeInUp">
-                                            <h3 className="font-bold text-blue-900 text-xl mb-3">
-                                                🚀 Accelerate Your AI Journey
-                                            </h3>
-                                            <p className="text-slate-700">
-                                                From Exploration to Enterprise-Scale Transformation
-                                            </p>
-                                        </div>
+                                <div className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
+                                    <div className="w-6 h-6 sm:w-8 sm:h-8 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-xs sm:text-sm flex-shrink-0">2</div>
+                                    <div>
+                                        <h4 className="font-semibold text-orange-700 text-sm sm:text-base">Experimentation & Pilots</h4>
+                                        <p className="text-xs sm:text-sm text-slate-600">Build initial POCs using generative AI, machine learning models, or automation.</p>
+                                    </div>
+                                </div>
 
-                                        <p className="animate-fadeInUp stagger-1">
-                                            Arvish Consulting partners with enterprises at every stage of their AI maturity.
-                                            Whether you're experimenting with proof of concept or operationalizing
-                                            AI across business units, our AI Maturity Framework helps assess
-                                            readiness, define a roadmap, and drive measurable impact.
-                                        </p>
+                                <div className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
+                                    <div className="w-6 h-6 sm:w-8 sm:h-8 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xs sm:text-sm flex-shrink-0">3</div>
+                                    <div>
+                                        <h4 className="font-semibold text-blue-700 text-sm sm:text-base">Operationalization</h4>
+                                        <p className="text-xs sm:text-sm text-slate-600">Integrate AI into production systems with proper MLOps, governance, and data pipelines.</p>
+                                    </div>
+                                </div>
 
-                                        <div className="space-y-4 animate-fadeInUp stagger-2">
-                                            <h3 className="text-lg font-semibold text-blue-900 mt-6">
-                                                Our AI Maturity Stages:
-                                            </h3>
+                                <div className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-green-50 to-green-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
+                                    <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold text-xs sm:text-sm flex-shrink-0">4</div>
+                                    <div>
+                                        <h4 className="font-semibold text-green-700 text-sm sm:text-base">Enterprise Adoption</h4>
+                                        <p className="text-xs sm:text-sm text-slate-600">Scale AI across functions while ensuring interoperability, security, and ROI tracking.</p>
+                                    </div>
+                                </div>
 
-                                            <div className="space-y-4">
-                                                <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-red-50 to-red-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
-                                                    <div className="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-sm">1</div>
-                                                    <div>
-                                                        <h4 className="font-semibold text-red-700">Awareness & Assessment</h4>
-                                                        <p className="text-sm text-slate-600">Identify opportunities and evaluate current data and process readiness.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
-                                                    <div className="w-8 h-8 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-sm">2</div>
-                                                    <div>
-                                                        <h4 className="font-semibold text-orange-700">Experimentation & Pilots</h4>
-                                                        <p className="text-sm text-slate-600">Build initial POCs using generative AI, machine learning models, or automation.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
-                                                    <div className="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-sm">3</div>
-                                                    <div>
-                                                        <h4 className="font-semibold text-blue-700">Operationalization</h4>
-                                                        <p className="text-sm text-slate-600">Integrate AI into production systems with proper MLOps, governance, and data pipelines.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-green-50 to-green-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
-                                                    <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold text-sm">4</div>
-                                                    <div>
-                                                        <h4 className="font-semibold text-green-700">Enterprise Adoption</h4>
-                                                        <p className="text-sm text-slate-600">Scale AI across functions while ensuring interoperability, security, and ROI tracking.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div className="flex items-start gap-4 p-4 bg-gradient-to-r from-purple-50 to-purple-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
-                                                    <div className="w-8 h-8 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold text-sm">5</div>
-                                                    <div>
-                                                        <h4 className="font-semibold text-purple-700">Autonomous Intelligence</h4>
-                                                        <p className="text-sm text-slate-600">Implement AI agents and self-learning systems that continuously optimize operations.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="bg-gradient-to-r from-slate-50 to-slate-100 p-6 rounded-xl border-l-4 border-slate-500 animate-fadeInUp stagger-3">
-                                            <p className="text-slate-700">
-                                                <span className="font-semibold text-slate-900">🎯 Expert Partnership:</span> Arvish Consulting's experts work closely with business and technology leaders to
-                                                define strategy, establish governance, and prioritize investments
-                                                aligned with transformation goals.
-                                            </p>
-                                        </div>
+                                <div className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 bg-gradient-to-r from-purple-50 to-purple-100 rounded-lg hover:shadow-md transition-all duration-300 hover:translate-x-2">
+                                    <div className="w-6 h-6 sm:w-8 sm:h-8 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold text-xs sm:text-sm flex-shrink-0">5</div>
+                                    <div>
+                                        <h4 className="font-semibold text-purple-700 text-sm sm:text-base">Autonomous Intelligence</h4>
+                                        <p className="text-xs sm:text-sm text-slate-600">Implement AI agents and self-learning systems that continuously optimize operations.</p>
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </div>
 
-                        {/* ================= AI IN QUALITY ENGINEERING ================= */}
-                        <section className="mt-24 py-20 px-6 bg-white">
-                            <div className="max-w-7xl mx-auto">
-                                <div className="grid md:grid-cols-2 gap-16 items-start">
-                                    <div className="flex justify-center">
-                                        <AIQualityEngineeringIllustration />
-                                    </div>
+                        <div className="bg-gradient-to-r from-slate-50 to-slate-100 p-4 sm:p-6 rounded-xl border-l-4 border-slate-500 animate-fadeInUp stagger-3">
+                            <p className="text-slate-700 text-sm sm:text-base">
+                                <span className="font-semibold text-slate-900">🎯 Expert Partnership:</span> Arvish Consulting's experts work closely with business and technology leaders to
+                                define strategy, establish governance, and prioritize investments
+                                aligned with transformation goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                                    <div className="text-slate-700 leading-relaxed space-y-6">
-                                        <h2 className="text-3xl font-bold text-blue-900">
-                                            AI in Quality Engineering
-                                        </h2>
+        {/* ================= AI IN QUALITY ENGINEERING ================= */}
+        <section className="mt-12 sm:mt-16 lg:mt-24 py-8 sm:py-12 lg:py-20 px-4 sm:px-6 bg-white">
+            <div className="max-w-7xl mx-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-start">
+                    <div className="flex justify-center order-1 lg:order-1 mb-8 lg:mb-0">
+                        <div className="w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[500px]">
+                            <AIQualityEngineeringIllustration />
+                        </div>
+                    </div>
 
-                                        <p className="font-semibold text-blue-900">
-                                            Reimagining Quality Engineering with AI
-                                        </p>
+                    <div className="text-slate-700 leading-relaxed space-y-4 sm:space-y-6 order-2 lg:order-2">
+                        <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-900">
+                            AI in Quality Engineering
+                        </h2>
 
-                                        <p>
-                                            At Arvish Consulting, we integrate AI into the heart of Quality Engineering
-                                            to make software delivery faster, smarter, and more reliable.
-                                        </p>
+                        <p className="font-semibold text-blue-900 text-sm sm:text-base">
+                            Reimagining Quality Engineering with AI
+                        </p>
 
-                                        <h3 className="text-lg font-semibold text-blue-900 mt-6">
-                                            AI-Driven Testing and Assurance Capabilities:
-                                        </h3>
+                        <p className="text-sm sm:text-base">
+                            At Arvish Consulting, we integrate AI into the heart of Quality Engineering
+                            to make software delivery faster, smarter, and more reliable.
+                        </p>
 
-                                        <ul className="space-y-4">
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                <span className="text-red-600 font-bold">■</span>{" "}
-                                                <b class="hover:text-blue-700 transition-colors duration-200">Intelligent Test Automation:</b> Use AI models to auto-generate
-                                                test scripts, predict defects, and optimize regression coverage.
-                                            </li>
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                <span className="text-red-600 font-bold">■</span>{" "}
-                                                <b class="hover:text-blue-700 transition-colors duration-200">Defect Prediction & Root Cause Analysis:</b> Leverage ML models
-                                                to identify high-risk areas before failures occur.
-                                            </li>
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                <span className="text-red-600 font-bold">■</span>{" "}
-                                                <b class="hover:text-blue-700 transition-colors duration-200">AI-Powered Test Data Management:</b> Automatically create, mask,
-                                                and manage realistic test data from production-like environments.
-                                            </li>
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                <span className="text-red-600 font-bold">■</span>{" "}
-                                                <b class="hover:text-blue-700 transition-colors duration-200">Generative AI for QA:</b> Use LLMs to assist testers in scenario
-                                                creation, documentation, and traceability.
-                                            </li>
-                                            <li className="hover:translate-x-2 transition-transform duration-300">
-                                                <span className="text-red-600 font-bold">■</span>{" "}
-                                                <b class="hover:text-blue-700 transition-colors duration-200">Continuous Quality in CI/CD:</b> Integrate AI insights with
-                                                DevOps pipelines for proactive issue detection and automated triage.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                        <h3 className="text-base sm:text-lg font-semibold text-blue-900 mt-4 sm:mt-6">
+                            AI-Driven Testing and Assurance Capabilities:
+                        </h3>
 
-                        {/* ================= WHY Arvish Consulting FOR AI ================= */}
-                        <section className="mt-24 bg-slate-50 py-20 px-6 rounded-lg">
-                            <div className="max-w-6xl mx-auto">
-                                <div className="text-center mb-16 animate-fadeInUp">
-                                    <h2 className="text-3xl font-bold text-blue-900 mb-4 hover:text-blue-700 transition-colors duration-300">
-                                        Why Arvish Consulting For AI?
-                                    </h2>
-                                    <div className="flex items-center justify-center gap-3">
-                                        <span className="w-20 h-1 bg-green-200 rounded"></span>
-                                        <span className="w-3 h-3 bg-red-600 rounded-full animate-pulse"></span>
-                                        <span className="w-20 h-1 bg-green-200 rounded"></span>
-                                    </div>
-                                </div>
+                        <ul className="space-y-3 sm:space-y-4">
+                            <li className="hover:translate-x-2 transition-transform duration-300 flex items-start gap-2">
+                                <span className="text-red-600 font-bold mt-1 flex-shrink-0">■</span>
+                                <span className="text-sm sm:text-base">
+                                    <b className="hover:text-blue-700 transition-colors duration-200">Intelligent Test Automation:</b> Use AI models to auto-generate
+                                    test scripts, predict defects, and optimize regression coverage.
+                                </span>
+                            </li>
+                            <li className="hover:translate-x-2 transition-transform duration-300 flex items-start gap-2">
+                                <span className="text-red-600 font-bold mt-1 flex-shrink-0">■</span>
+                                <span className="text-sm sm:text-base">
+                                    <b className="hover:text-blue-700 transition-colors duration-200">Defect Prediction & Root Cause Analysis:</b> Leverage ML models
+                                    to identify high-risk areas before failures occur.
+                                </span>
+                            </li>
+                            <li className="hover:translate-x-2 transition-transform duration-300 flex items-start gap-2">
+                                <span className="text-red-600 font-bold mt-1 flex-shrink-0">■</span>
+                                <span className="text-sm sm:text-base">
+                                    <b className="hover:text-blue-700 transition-colors duration-200">AI-Powered Test Data Management:</b> Automatically create, mask,
+                                    and manage realistic test data from production-like environments.
+                                </span>
+                            </li>
+                            <li className="hover:translate-x-2 transition-transform duration-300 flex items-start gap-2">
+                                <span className="text-red-600 font-bold mt-1 flex-shrink-0">■</span>
+                                <span className="text-sm sm:text-base">
+                                    <b className="hover:text-blue-700 transition-colors duration-200">Generative AI for QA:</b> Use LLMs to assist testers in scenario
+                                    creation, documentation, and traceability.
+                                </span>
+                            </li>
+                            <li className="hover:translate-x-2 transition-transform duration-300 flex items-start gap-2">
+                                <span className="text-red-600 font-bold mt-1 flex-shrink-0">■</span>
+                                <span className="text-sm sm:text-base">
+                                    <b className="hover:text-blue-700 transition-colors duration-200">Continuous Quality in CI/CD:</b> Integrate AI insights with
+                                    DevOps pipelines for proactive issue detection and automated triage.
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                                <div className="grid md:grid-cols-2 gap-10">
-                                    <div className="flex gap-4 bg-white p-6 rounded-lg shadow-md hover-lift hover-glow animate-fadeInUp stagger-1 group">
-                                        <div className="w-10 h-10 rounded-full bg-red-100 text-red-600 flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                                            ✓
-                                        </div>
-                                        <p className="group-hover:text-slate-900 transition-colors duration-300"><b class="hover:text-blue-700 transition-colors duration-200">Enterprise-Grade Expertise:</b> Proven across industries and mission-critical systems.</p>
-                                    </div>
+        {/* ================= WHY Arvish Consulting FOR AI ================= */}
+        <section className="mt-12 sm:mt-16 lg:mt-24 bg-slate-50 py-8 sm:py-12 lg:py-20 px-4 sm:px-6 rounded-lg">
+            <div className="max-w-6xl mx-auto">
+                <div className="text-center mb-8 sm:mb-12 lg:mb-16 animate-fadeInUp">
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-900 mb-3 sm:mb-4 hover:text-blue-700 transition-colors duration-300">
+                        Why Arvish Consulting For AI?
+                    </h2>
+                    <div className="flex items-center justify-center gap-3">
+                        <span className="w-12 sm:w-20 h-1 bg-green-200 rounded"></span>
+                        <span className="w-2 sm:w-3 h-2 sm:h-3 bg-red-600 rounded-full animate-pulse"></span>
+                        <span className="w-12 sm:w-20 h-1 bg-green-200 rounded"></span>
+                    </div>
+                </div>
 
-                                    <div className="flex gap-4 bg-white p-6 rounded-lg shadow-md hover-lift hover-glow animate-fadeInUp stagger-2 group">
-                                        <div className="w-10 h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                                            ✓
-                                        </div>
-                                        <p className="group-hover:text-slate-900 transition-colors duration-300"><b class="hover:text-blue-700 transition-colors duration-200">Custom-Built Solutions:</b> Tailored AI models and workflows aligned with business needs.</p>
-                                    </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+                    <div className="flex gap-3 sm:gap-4 bg-white p-4 sm:p-6 rounded-lg shadow-md hover-lift hover-glow animate-fadeInUp stagger-1 group">
+                        <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-red-100 text-red-600 flex items-center justify-center font-bold flex-shrink-0 text-sm sm:text-base group-hover:scale-110 transition-transform duration-300">
+                            ✓
+                        </div>
+                        <p className="group-hover:text-slate-900 transition-colors duration-300 text-xs sm:text-sm lg:text-base"><b className="hover:text-blue-700 transition-colors duration-200">Enterprise-Grade Expertise:</b> Proven across industries and mission-critical systems.</p>
+                    </div>
 
-                                    <div className="flex gap-4 bg-white p-6 rounded-lg shadow-md hover-lift hover-glow animate-fadeInUp stagger-3 group">
-                                        <div className="w-10 h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                                            ✓
-                                        </div>
-                                        <p className="group-hover:text-slate-900 transition-colors duration-300"><b class="hover:text-blue-700 transition-colors duration-200">End-to-End Delivery:</b> From AI strategy to deployment and optimization.</p>
-                                    </div>
+                    <div className="flex gap-3 sm:gap-4 bg-white p-4 sm:p-6 rounded-lg shadow-md hover-lift hover-glow animate-fadeInUp stagger-2 group">
+                        <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold flex-shrink-0 text-sm sm:text-base group-hover:scale-110 transition-transform duration-300">
+                            ✓
+                        </div>
+                        <p className="group-hover:text-slate-900 transition-colors duration-300 text-xs sm:text-sm lg:text-base"><b className="hover:text-blue-700 transition-colors duration-200">Custom-Built Solutions:</b> Tailored AI models and workflows aligned with business needs.</p>
+                    </div>
 
-                                    <div className="flex gap-4 bg-white p-6 rounded-lg shadow-md hover-lift hover-glow animate-fadeInUp stagger-4 group">
-                                        <div className="w-10 h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                                            ✓
-                                        </div>
-                                        <p className="group-hover:text-slate-900 transition-colors duration-300"><b class="hover:text-blue-700 transition-colors duration-200">Responsible AI:</b> Ethical, secure, and compliant AI development.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </>
-                )}
+                    <div className="flex gap-3 sm:gap-4 bg-white p-4 sm:p-6 rounded-lg shadow-md hover-lift hover-glow animate-fadeInUp stagger-3 group">
+                        <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold flex-shrink-0 text-sm sm:text-base group-hover:scale-110 transition-transform duration-300">
+                            ✓
+                        </div>
+                        <p className="group-hover:text-slate-900 transition-colors duration-300 text-xs sm:text-sm lg:text-base"><b className="hover:text-blue-700 transition-colors duration-200">End-to-End Delivery:</b> From AI strategy to deployment and optimization.</p>
+                    </div>
+
+                    <div className="flex gap-3 sm:gap-4 bg-white p-4 sm:p-6 rounded-lg shadow-md hover-lift hover-glow animate-fadeInUp stagger-4 group">
+                        <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold flex-shrink-0 text-sm sm:text-base group-hover:scale-110 transition-transform duration-300">
+                            ✓
+                        </div>
+                        <p className="group-hover:text-slate-900 transition-colors duration-300 text-xs sm:text-sm lg:text-base"><b className="hover:text-blue-700 transition-colors duration-200">Responsible AI:</b> Ethical, secure, and compliant AI development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </>
+)}
 
                 {/* ================= DIGITAL EXPERIENCE ================= */}
                 {serviceName === "digital-experience" && (

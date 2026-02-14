@@ -5,18 +5,18 @@ import AnalyticsGraph from "./AnalyticsGraph";
 const blogs = [
   {
     id: 1,
-    title: "Digital Transformation: Optimizing Business Operations with Cloud Solutions",
+    title: "Enabling Enterprise Success Through IT & ITES Workforce Solutions",
     image: "tech-panel",
   },
   {
     id: 2, // Innovative panel
     title:
-      "Maximizing ROI Through Strategic IT Solutions and Innovation",
+      "Flexible Engagement Models for Project-Based and Managed Services",
     image: null,
   },
   {
     id: 3, // Graph card
-    title: "Client-Centered Approach: Driving Measurable Business Success",
+    title: "Payroll, Application Maintenance and Corporate Website Management Services",
     image: "graph",
   },
 ];

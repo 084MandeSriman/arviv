@@ -12,28 +12,30 @@ export const MeetTheLeaders = () => {
         <div className="absolute bottom-20 left-1/2 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-2000"></div>
       </div>
       
-      <div className="relative max-w-7xl mx-auto px-6 py-20">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
         {/* Hero Section */}
-        <div className="text-center mb-20">
-          <div className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-blue-200 mb-8">
+        <div className="text-center mb-12 sm:mb-20">
+          <div className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-white/80 backdrop-blur-sm rounded-full border border-blue-200 mb-6 sm:mb-8">
             <span className="text-blue-600 font-semibold text-sm">Leadership Excellence</span>
           </div>
-          <h1 className="text-7xl font-bold bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 bg-clip-text text-transparent mb-8 leading-tight">
-            Meet Our
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 bg-clip-text text-transparent mb-6 sm:mb-8 leading-tight px-4">
+            Our Leadership
             <span className="block bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              Visionary Leaders
+              Commitment
             </span>
           </h1>
-          <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed font-light">
-            Exceptional leaders with decades of combined experience driving innovation, excellence, and transformational growth across the technology industry
+          <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed font-light px-4">
+            Driven by a customer-centric approach, quality delivery and professional integrity, 
+            our leadership team focuses on building long-term partnerships, empowering people 
+            and delivering measurable value to our customers.
           </p>
-          <div className="mt-8 flex justify-center">
+          <div className="mt-6 sm:mt-8 flex justify-center">
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full"></div>
           </div>
         </div>
 
         {/* Leadership Team */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-20">
           {[
             {
               name: 'John Smith',
@@ -159,7 +161,7 @@ export const MeetTheLeaders = () => {
               onMouseLeave={() => setHoveredCard(null)}
             >
               {/* Header with Image */}
-              <div className={`bg-gradient-to-br ${leader.colorClasses.gradient} p-8 text-center relative overflow-hidden`}>
+              <div className={`bg-gradient-to-br ${leader.colorClasses.gradient} p-6 sm:p-8 text-center relative overflow-hidden`}>
                 {/* Animated Background Pattern */}
                 <div className="absolute inset-0 opacity-20">
                   <div className="absolute top-0 left-0 w-32 h-32 bg-white/30 rounded-full -translate-x-16 -translate-y-16 animate-pulse"></div>
@@ -185,16 +187,16 @@ export const MeetTheLeaders = () => {
                 </div>
                 
                 <div className="relative z-10">
-                  <div className="w-28 h-28 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-20 h-20 sm:w-24 md:w-28 sm:h-24 md:h-28 mx-auto mb-4 sm:mb-6 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl group-hover:scale-110 transition-transform duration-300">
                     <img 
                       src={leader.image} 
                       alt={leader.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                   </div>
-                  <h3 className="text-2xl font-bold text-white mb-2 group-hover:scale-105 transition-transform duration-300">{leader.name}</h3>
-                  <p className="text-white/95 font-semibold text-lg">{leader.role}</p>
-                  <p className="text-white/80 text-sm mt-2 font-medium">{leader.experience} Experience</p>
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 group-hover:scale-105 transition-transform duration-300">{leader.name}</h3>
+                  <p className="text-white/95 font-semibold text-base sm:text-lg">{leader.role}</p>
+                  <p className="text-white/80 text-xs sm:text-sm mt-2 font-medium">{leader.experience} Experience</p>
                   
                   {/* Social Links */}
                   <div className="flex justify-center space-x-3 mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -213,7 +215,7 @@ export const MeetTheLeaders = () => {
               </div>
               
               {/* Content */}
-              <div className="p-8">
+              <div className="p-6 sm:p-8">
                 <div className="mb-6">
                   <h4 className="font-bold text-slate-900 mb-3 flex items-center">
                     <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
@@ -256,17 +258,17 @@ export const MeetTheLeaders = () => {
         </div>
 
         {/* Leadership Philosophy */}
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl border border-white/20 p-12 mb-20 relative overflow-hidden">
+        <div className="bg-white/80 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl border border-white/20 p-6 sm:p-8 md:p-12 mb-12 sm:mb-20 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-indigo-50/50"></div>
           <div className="relative">
-            <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent mb-6">Leadership Philosophy</h2>
-              <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                Our leadership approach is built on three fundamental pillars that drive organizational excellence and sustainable growth
+            <div className="text-center mb-10 sm:mb-16">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent mb-4 sm:mb-6 px-4">Leadership Philosophy</h2>
+              <p className="text-base sm:text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Our leadership approach is built on core values that drive organizational excellence and customer success
               </p>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-10">
               <div className="group text-center hover:transform hover:scale-105 transition-all duration-300">
                 <div className="relative mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl mx-auto mb-6 flex items-center justify-center text-white text-3xl shadow-xl group-hover:shadow-2xl transition-shadow duration-300 rotate-3 group-hover:rotate-6">
@@ -274,9 +276,9 @@ export const MeetTheLeaders = () => {
                   </div>
                   <div className="absolute -top-2 -right-2 w-6 h-6 bg-blue-200 rounded-full opacity-60 group-hover:scale-150 transition-transform duration-300"></div>
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-6 group-hover:text-blue-700 transition-colors duration-300">Vision-Driven Leadership</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-6 group-hover:text-blue-700 transition-colors duration-300">Vision Driven</h3>
                 <p className="text-slate-700 leading-relaxed text-base">
-                  We lead with a clear vision of the future, inspiring teams to achieve ambitious goals while maintaining focus on long-term sustainable growth and meaningful impact.
+                  To establish a global presence in the IT market and be the partner of choice for customers.
                 </p>
               </div>
               
@@ -287,9 +289,9 @@ export const MeetTheLeaders = () => {
                   </div>
                   <div className="absolute -top-2 -left-2 w-6 h-6 bg-emerald-200 rounded-full opacity-60 group-hover:scale-150 transition-transform duration-300"></div>
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-6 group-hover:text-emerald-700 transition-colors duration-300">Collaborative Excellence</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-6 group-hover:text-emerald-700 transition-colors duration-300">Customer First</h3>
                 <p className="text-slate-700 leading-relaxed text-base">
-                  We believe in empowering teams, fostering open communication, and creating an inclusive environment where diverse perspectives drive innovation and collective success.
+                  Commitment to surpass customer expectations through quality and continuous engagement.
                 </p>
               </div>
               
@@ -300,9 +302,9 @@ export const MeetTheLeaders = () => {
                   </div>
                   <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-purple-200 rounded-full opacity-60 group-hover:scale-150 transition-transform duration-300"></div>
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-6 group-hover:text-purple-700 transition-colors duration-300">Agile Innovation</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-6 group-hover:text-purple-700 transition-colors duration-300">Integrity & Excellence</h3>
                 <p className="text-slate-700 leading-relaxed text-base">
-                  We embrace change, encourage calculated risks, and maintain the agility needed to adapt quickly to market demands while fostering a culture of continuous innovation.
+                  Ensuring the highest level of professional ethics in all our assignments.
                 </p>
               </div>
             </div>
@@ -310,23 +312,23 @@ export const MeetTheLeaders = () => {
         </div>
 
         {/* Leadership Achievements */}
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl border border-white/20 p-12 relative overflow-hidden">
+        <div className="bg-white/80 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl border border-white/20 p-6 sm:p-8 md:p-12 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-slate-50/50 to-blue-50/50"></div>
           <div className="relative">
-            <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent mb-6">Collective Achievements</h2>
-              <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                Our leadership team's combined expertise has delivered exceptional results across all dimensions of business excellence
+            <div className="text-center mb-10 sm:mb-16">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent mb-4 sm:mb-6 px-4">Collective Achievements</h2>
+              <p className="text-base sm:text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed px-4">
+                Our leadership team's commitment to excellence has delivered consistent growth and customer satisfaction
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
               <div className="group text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl border border-blue-200/50 hover:shadow-xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent mb-3">500+</div>
-                  <div className="text-slate-800 font-bold text-lg mb-2">Projects Delivered</div>
-                  <div className="text-sm text-slate-600 font-medium">Under current leadership</div>
+                  <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent mb-3">2015</div>
+                  <div className="text-slate-800 font-bold text-lg mb-2">Launch Year</div>
+                  <div className="text-sm text-slate-600 font-medium">Strong growth trajectory</div>
                   <div className="w-12 h-1 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full mx-auto mt-4 group-hover:w-16 transition-all duration-300"></div>
                 </div>
               </div>
@@ -334,9 +336,9 @@ export const MeetTheLeaders = () => {
               <div className="group text-center p-8 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-3xl border border-emerald-200/50 hover:shadow-xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-400/10 to-emerald-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-emerald-600 to-emerald-800 bg-clip-text text-transparent mb-3">98%</div>
-                  <div className="text-slate-800 font-bold text-lg mb-2">Client Satisfaction</div>
-                  <div className="text-sm text-slate-600 font-medium">Consistent excellence</div>
+                  <div className="text-5xl font-bold bg-gradient-to-r from-emerald-600 to-emerald-800 bg-clip-text text-transparent mb-3">20+</div>
+                  <div className="text-slate-800 font-bold text-lg mb-2">Customers</div>
+                  <div className="text-sm text-slate-600 font-medium">Trusted partnerships</div>
                   <div className="w-12 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full mx-auto mt-4 group-hover:w-16 transition-all duration-300"></div>
                 </div>
               </div>
@@ -344,9 +346,9 @@ export const MeetTheLeaders = () => {
               <div className="group text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-3xl border border-purple-200/50 hover:shadow-xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-400/10 to-purple-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent mb-3">15+</div>
-                  <div className="text-slate-800 font-bold text-lg mb-2">Industry Awards</div>
-                  <div className="text-sm text-slate-600 font-medium">Recognition for innovation</div>
+                  <div className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent mb-3">50+</div>
+                  <div className="text-slate-800 font-bold text-lg mb-2">Team</div>
+                  <div className="text-sm text-slate-600 font-medium">Expert professionals</div>
                   <div className="w-12 h-1 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full mx-auto mt-4 group-hover:w-16 transition-all duration-300"></div>
                 </div>
               </div>
@@ -354,9 +356,9 @@ export const MeetTheLeaders = () => {
               <div className="group text-center p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-3xl border border-orange-200/50 hover:shadow-xl hover:scale-105 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-orange-400/10 to-orange-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative">
-                  <div className="text-5xl font-bold bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent mb-3">200+</div>
-                  <div className="text-slate-800 font-bold text-lg mb-2">Team Members</div>
-                  <div className="text-sm text-slate-600 font-medium">Growing organization</div>
+                  <div className="text-5xl font-bold bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent mb-3">7</div>
+                  <div className="text-slate-800 font-bold text-lg mb-2">States Presence</div>
+                  <div className="text-sm text-slate-600 font-medium">Growing network</div>
                   <div className="w-12 h-1 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full mx-auto mt-4 group-hover:w-16 transition-all duration-300"></div>
                 </div>
               </div>

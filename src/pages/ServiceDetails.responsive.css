@@ -1,0 +1,165 @@
+/* ServiceDetails Mobile Responsive Styles */
+
+/* Base responsive container */
+.service-details-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 640px) {
+  /* Container adjustments */
+  section {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Grid layouts */
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  /* Typography scaling */
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+
+  h3 {
+    font-size: 1.125rem !important;
+    line-height: 1.5rem !important;
+  }
+
+  p, li, div {
+    font-size: 0.875rem !important;
+    line-height: 1.5rem !important;
+  }
+
+  /* Illustration containers */
+  .relative[class*="w-["] {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: 200px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Emoji sizes in illustrations */
+  .text-9xl {
+    font-size: 3rem !important;
+  }
+
+  .text-8xl {
+    font-size: 2.5rem !important;
+  }
+
+  .text-5xl, .text-4xl, .text-3xl {
+    font-size: 1.5rem !important;
+  }
+
+  .text-2xl {
+    font-size: 1.25rem !important;
+  }
+
+  .text-xl {
+    font-size: 1.125rem !important;
+  }
+
+  /* Spacing adjustments */
+  .p-6, .p-8, .p-10 {
+    padding: 0.75rem !important;
+  }
+
+  .px-6, .px-8 {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+
+  .py-12, .py-16, .py-20, .py-24 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .mb-12, .mb-16, .mb-20 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .mt-12, .mt-16, .mt-20, .mt-24 {
+    margin-top: 2rem !important;
+  }
+
+  .gap-12, .gap-16 {
+    gap: 1.5rem !important;
+  }
+
+  /* Hide decorative elements on mobile */
+  .absolute.top-8,
+  .absolute.top-12,
+  .absolute.top-20,
+  .absolute.bottom-12,
+  .absolute.bottom-20,
+  .absolute.bottom-32 {
+    display: none !important;
+  }
+
+  /* Flex adjustments */
+  .flex {
+    flex-direction: column !important;
+  }
+
+  /* Button adjustments */
+  button {
+    width: 100% !important;
+    font-size: 0.875rem !important;
+  }
+
+  /* SVG responsiveness */
+  svg {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Animation container heights */
+  .relative.h-\[250px\],
+  .relative.h-\[280px\],
+  .relative.h-\[300px\],
+  .relative.h-\[320px\],
+  .relative.h-\[350px\],
+  .relative.h-\[400px\],
+  .relative.h-\[420px\],
+  .relative.h-\[450px\],
+  .relative.h-\[500px\] {
+    height: 200px !important;
+    min-height: 200px !important;
+  }
+
+  /* Absolute positioned elements */
+  .absolute[class*="w-"] {
+    position: relative !important;
+    transform: none !important;
+    margin: 0.5rem auto !important;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .relative[class*="w-["] {
+    max-width: 350px !important;
+    height: 250px !important;
+  }
+}

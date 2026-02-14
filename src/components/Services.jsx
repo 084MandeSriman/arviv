@@ -93,25 +93,6 @@ export default function Services() {
           exceptional results across diverse industries and geographies.
         </p>
 
-        {/* Premium Certifications */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 xs:gap-8 sm:gap-12 mb-8 xs:mb-12 sm:mb-16">
-          <div className="bg-white/80 backdrop-blur-sm rounded-xl xs:rounded-2xl p-4 xs:p-6 shadow-lg border border-white/50 hover:shadow-xl transition-all duration-300">
-            <img
-              src="https://mma.prnewswire.com/media/1078433/CMMIDEV_5.jpg?p=facebook"
-              alt="CMMI Dev 5"
-              className="h-12 xs:h-14 sm:h-16 object-contain"
-            />
-            <p className="text-xs xs:text-sm text-slate-600 mt-2 font-medium">CMMI Level 5 Certified</p>
-          </div>
-          <div className="bg-white/80 backdrop-blur-sm rounded-xl xs:rounded-2xl p-4 xs:p-6 shadow-lg border border-white/50 hover:shadow-xl transition-all duration-300">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvCHrfUH2bxpX1ijlWV6UWXhGEwXup996shw&s"
-              alt="Microsoft Gold Partner"
-              className="h-12 xs:h-14 sm:h-16 object-contain"
-            />
-            <p className="text-xs xs:text-sm text-slate-600 mt-2 font-medium">Microsoft Gold Partner</p>
-          </div>
-        </div>
       </div>
 
       {/* ===== Premium Services Grid ===== */}

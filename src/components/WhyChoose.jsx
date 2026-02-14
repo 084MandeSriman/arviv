@@ -14,26 +14,26 @@ export default function WhyChoose() {
   const benefits = [
     {
       icon: "👥",
-      title: "Expert Team",
-      description: "Industry veterans with proven track records",
+      title: "Skilled Team",
+      description: "Dedicated IT & ITES professionals deployed across customer locations to deliver reliable and efficient solutions.",
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: "🎯",
-      title: "Client Success",
-      description: "95% client retention rate & 4.9/5 satisfaction",
+      title: "Customer-Centric Approach",
+      description: "Committed to exceeding customer expectations through quality service and continuous engagement.",
       color: "from-purple-500 to-pink-500"
     },
     {
       icon: "⚡",
-      title: "Innovation Edge",
-      description: "Cutting-edge tech with agile methodologies",
+      title: "Proven Engagement Models",
+      description: "Flexible hiring and project execution through Fixed, T&M, Milestone-based and AMS models.",
       color: "from-emerald-500 to-teal-500"
     },
     {
       icon: "🛡️",
-      title: "Quality First",
-      description: "Enterprise-grade security & reliability",
+      title: "Quality & Integrity",
+      description: "Process-driven delivery with the highest level of professional and ethical standards.",
       color: "from-orange-500 to-amber-500"
     }
   ];
@@ -61,13 +61,12 @@ export default function WhyChoose() {
                 Your Trusted
               </span>
               <br />
-              <span className="text-slate-900">Digital Partner</span>
+              <span className="text-slate-900">IT & Resourcing Partner</span>
             </h1>
 
             {/* Description */}
             <p className="text-base xs:text-lg text-slate-600 mb-8 xs:mb-10 leading-relaxed">
-              We transform complex business challenges into scalable digital solutions. 
-              Combining strategic insight with technical excellence to drive measurable impact.
+             We help organizations achieve their strategic goals through a strong workforce, proven engagement models and a customer-centric approach. Our focus on quality, professional integrity and timely delivery enables long-term and successful partnerships.
             </p>
 
             {/* Stats */}
@@ -128,7 +127,7 @@ export default function WhyChoose() {
                       {benefit.title}
                     </h3>
                     
-                    <p className="text-slate-600 text-xs xs:text-sm">
+                    <p className="text-slate-600 text-xs xs:text-sm leading-relaxed">
                       {benefit.description}
                     </p>
 

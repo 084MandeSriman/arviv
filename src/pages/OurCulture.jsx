@@ -681,12 +681,12 @@ export const OurCulture = () => {
         </svg>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
         {/* Hero Section */}
-        <div className={`text-center mb-24 pt-12 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`text-center mb-16 sm:mb-24 pt-8 sm:pt-12 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           {/* Animated Logo */}
-          <div className="mb-12 relative">
-            <div className="w-40 h-40 mx-auto relative">
+          <div className="mb-8 sm:mb-12 relative">
+            <div className="w-24 h-24 sm:w-32 md:w-40 sm:h-32 md:h-40 mx-auto relative">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-full blur-xl opacity-50 animate-pulse" />
               <svg className="w-full h-full animate-spin-slow" viewBox="0 0 100 100" fill="none">
                 <path d="M50 10L75 30V70L50 90L25 70V30L50 10Z" fill="url(#heroGradient)" />
@@ -706,88 +706,64 @@ export const OurCulture = () => {
             </div>
           </div>
 
-          <h1 className="text-8xl font-black mb-8 text-slate-900">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black mb-6 sm:mb-8 text-slate-900 px-4">
             Our Culture
           </h1>
           
           <div className="relative">
-            <p className="text-2xl text-slate-800 max-w-4xl mx-auto leading-relaxed mb-8 font-light">
-              Building a workplace where <span className="text-slate-900 font-semibold">innovation thrives</span>,{' '}
-              <span className="text-slate-900 font-semibold">collaboration flourishes</span>, and every team member feels{' '}
-              <span className="text-slate-900 font-semibold">valued, empowered, and inspired</span>
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-800 max-w-4xl mx-auto leading-relaxed mb-6 sm:mb-8 font-light px-4">
+              Our culture is built on customer satisfaction, quality service and professional integrity. 
+              With a strong team of IT & ITES professionals and a customer-centric engagement model, 
+              we deliver consistent value and build long-term partnerships across industries.
             </p>
             
             {/* Animated Underline */}
-            <div className="w-64 h-1 mx-auto mt-8 relative">
+            <div className="w-32 sm:w-48 md:w-64 h-1 mx-auto mt-6 sm:mt-8 relative">
               <div className="absolute inset-0 bg-slate-400" />
             </div>
           </div>
 
           {/* Scroll Indicator */}
-          <div className="mt-16">
+          <div className="mt-8 sm:mt-12 md:mt-16">
             <div className="w-6 h-10 mx-auto border-2 border-slate-400 rounded-full p-1">
               <div className="w-1 h-3 mx-auto bg-slate-600 rounded-full" />
             </div>
           </div>
         </div>
 
-        {/* Culture Statistics */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
-          <div className="bg-white rounded-2xl p-8 border border-slate-300 text-center shadow-lg">
-            <div className="text-4xl mb-4">📊</div>
-            <div className="text-4xl font-bold text-slate-900 mb-2">98%</div>
-            <div className="text-slate-700 font-medium">Employee Satisfaction</div>
-          </div>
-          <div className="bg-white rounded-2xl p-8 border border-slate-300 text-center shadow-lg">
-            <div className="text-4xl mb-4">🌍</div>
-            <div className="text-4xl font-bold text-slate-900 mb-2">15+</div>
-            <div className="text-slate-700 font-medium">Nationalities</div>
-          </div>
-          <div className="bg-white rounded-2xl p-8 border border-slate-300 text-center shadow-lg">
-            <div className="text-4xl mb-4">📈</div>
-            <div className="text-4xl font-bold text-slate-900 mb-2">40%</div>
-            <div className="text-slate-700 font-medium">Promotion Rate</div>
-          </div>
-          <div className="bg-white rounded-2xl p-8 border border-slate-300 text-center shadow-lg">
-            <div className="text-4xl mb-4">⭐</div>
-            <div className="text-4xl font-bold text-slate-900 mb-2">4.8</div>
-            <div className="text-slate-700 font-medium">Glassdoor Rating</div>
-          </div>
-        </div>
-
-        {/* Culture Pillars */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+{/* Culture Pillars */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-12 sm:mb-20">
           {[
             {
               type: 'growth',
-              title: 'Growth Mindset',
-              description: 'Continuous learning and personal development at every level'
+              title: 'Customer Satisfaction',
+              description: 'Commitment to surpass customer expectations through quality delivery and continuous engagement.'
             },
             {
               type: 'collab',
-              title: 'Collaborative Spirit',
-              description: 'Teamwork and open communication drive our collective success'
+              title: 'Strong Team',
+              description: 'Skilled IT & ITES professionals deployed at customer locations across the country.'
             },
             {
               type: 'innovation',
-              title: 'Innovation First',
-              description: 'Embracing new ideas and creative solutions to complex challenges'
+              title: 'Quality Focus',
+              description: 'Continuous effort to achieve excellence in all our services and solutions.'
             },
             {
               type: 'purpose',
-              title: 'Purpose Driven',
-              description: 'Making meaningful impact through our work and contributions'
+              title: 'Professional Integrity',
+              description: 'Highest level of ethical standards and transparency in every engagement.'
             }
           ].map((pillar, index) => (
-            <div key={index} className="bg-white rounded-3xl p-8 border border-slate-300 shadow-lg h-full">
-              <div className="relative mb-8 flex justify-center">
+            <div key={index} className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-slate-300 shadow-lg h-full">
+              <div className="relative mb-6 sm:mb-8 flex justify-center">
                 <CultureIcon type={pillar.type} />
               </div>
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">
+                <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-3 sm:mb-4">
                   {pillar.title}
                 </h3>
-                <p className="text-slate-700 leading-relaxed">
+                <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                   {pillar.description}
                 </p>
               </div>
@@ -795,235 +771,65 @@ export const OurCulture = () => {
           ))}
         </div>
 
-        {/* Culture Highlights */}
-        <div className="grid lg:grid-cols-2 gap-12 mb-20">
-          {/* Work-Life Harmony */}
-          <div className="bg-white rounded-3xl p-10 border border-slate-300 shadow-lg h-full hover:shadow-xl transition-shadow duration-300">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="animate-pulse">
-                <CultureIcon type="worklife" />
-              </div>
-              <h2 className="text-4xl font-bold text-slate-900">
-                Work-Life Harmony
-              </h2>
-            </div>
-            
-            <p className="text-lg text-slate-800 mb-8 leading-relaxed">
-              We believe that happy, balanced employees are our greatest asset. Our comprehensive approach to work-life harmony ensures you can thrive both professionally and personally.
-            </p>
-            
-            <div className="space-y-4">
-              {[
-                { 
-                  title: 'Flexible Hours', 
-                  desc: 'Choose your optimal working schedule',
-                  icon: '⏰'
-                },
-                { 
-                  title: 'Remote Options', 
-                  desc: 'Work from anywhere that suits you best',
-                  icon: '🏠'
-                },
-                { 
-                  title: 'Wellness Programs', 
-                  desc: 'Mental health and fitness support',
-                  icon: '💪'
-                },
-                { 
-                  title: 'Unlimited PTO', 
-                  desc: 'Take time off when you need it most',
-                  icon: '✈️'
-                }
-              ].map((item, i) => (
-                <div key={i} className="flex items-center gap-4 p-4 bg-slate-50 rounded-xl hover:bg-slate-100 hover:scale-105 transition-all duration-300 group">
-                  <div className="text-2xl group-hover:animate-bounce">
-                    {item.icon}
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-900 group-hover:text-blue-700 transition-colors duration-300">{item.title}</h4>
-                    <p className="text-sm text-slate-700">{item.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Diversity & Inclusion */}
-          <div className="bg-white rounded-3xl p-10 border border-slate-300 shadow-lg h-full hover:shadow-xl transition-shadow duration-300">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="animate-pulse">
-                <CultureIcon type="diversity" />
-              </div>
-              <h2 className="text-4xl font-bold text-slate-900">
-                Diversity & Inclusion
-              </h2>
-            </div>
-            
-            <p className="text-lg text-slate-800 mb-8 leading-relaxed">
-              Our diverse team brings unique perspectives and experiences that strengthen our solutions and create an inclusive environment where everyone belongs.
-            </p>
-            
-            <div className="space-y-4">
-              {[
-                { 
-                  title: 'Global Perspectives', 
-                  desc: 'Team members from 15+ countries',
-                  icon: '🌍'
-                },
-                { 
-                  title: 'Equal Opportunities', 
-                  desc: 'Fair hiring and promotion practices',
-                  icon: '⚖️'
-                },
-                { 
-                  title: 'Open Dialogue', 
-                  desc: 'Safe spaces for sharing ideas and feedback',
-                  icon: '💬'
-                },
-                { 
-                  title: 'Cultural Celebrations', 
-                  desc: 'Honoring diverse traditions and backgrounds',
-                  icon: '🎉'
-                }
-              ].map((item, i) => (
-                <div key={i} className="flex items-center gap-4 p-4 bg-slate-50 rounded-xl hover:bg-slate-100 hover:scale-105 transition-all duration-300 group">
-                  <div className="text-2xl group-hover:animate-bounce">
-                    {item.icon}
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-900 group-hover:text-blue-700 transition-colors duration-300">{item.title}</h4>
-                    <p className="text-sm text-slate-700">{item.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Learning & Development */}
-        <div className="bg-slate-50 rounded-3xl border border-slate-200 p-12 mb-20 relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-2 bg-slate-400" />
-          
-          <h2 className="text-5xl font-bold text-slate-900 mb-12 text-center">
-            Learning & Development
-          </h2>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                type: 'learning',
-                title: 'Continuous Learning',
-                description: 'Access to online courses, certifications, and training programs to enhance your skills.',
-                features: ['$3,000 annual learning budget', 'Industry conference attendance', 'Internal knowledge sharing sessions'],
-                gradient: 'from-emerald-400 to-emerald-600',
-                color: 'emerald'
-              },
-              {
-                type: 'mentorship',
-                title: 'Mentorship Programs',
-                description: 'Structured mentoring relationships to accelerate career growth and development.',
-                features: ['Senior leader mentorship', 'Peer-to-peer learning circles', 'Cross-functional project exposure'],
-                gradient: 'from-blue-400 to-blue-600',
-                color: 'blue'
-              },
-              {
-                type: 'career',
-                title: 'Career Advancement',
-                description: 'Clear pathways for growth with regular performance reviews and promotion opportunities.',
-                features: ['Quarterly performance reviews', 'Individual development plans', 'Leadership development tracks'],
-                gradient: 'from-purple-400 to-purple-600',
-                color: 'purple'
-              }
-            ].map((item, i) => (
-              <HolographicCard key={i} gradient={item.gradient}>
-                <div className="culture-card text-center bg-white rounded-2xl p-8 border border-slate-300 h-full shadow-lg">
-                  <div className="relative mb-6">
-                    <div className={`absolute -inset-4 bg-gradient-to-r ${item.gradient} rounded-full blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-500`} />
-                    <div className="relative mx-auto w-24 h-24 flex items-center justify-center">
-                      <CultureIcon type={item.type} />
-                    </div>
-                  </div>
-                  <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center">
-                    {item.title}
-                  </h3>
-                  <p className="text-slate-700 mb-6 leading-relaxed text-center">
-                    {item.description}
-                  </p>
-                  <ul className="text-sm text-slate-600 space-y-2">
-                    {item.features.map((feature, j) => (
-                      <li key={j} className="flex items-center justify-center gap-2">
-                        <div className="w-1.5 h-1.5 bg-slate-600 rounded-full" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </HolographicCard>
-            ))}
-          </div>
-        </div>
-
-
-
-        {/* Team Values Grid */}
-        <div className="mb-24">
-          <h2 className="text-5xl font-bold text-center mb-16 text-slate-900">
+{/* Team Values Grid */}
+        <div className="mb-16 sm:mb-24">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-10 sm:mb-16 text-slate-900 px-4">
             Our Core Values in Action
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 items-stretch">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-20 items-stretch">
             {[
               {
-                icon: '🚀',
-                title: 'Innovation Excellence',
-                description: 'Pushing boundaries with cutting-edge solutions',
-                metrics: '95% client satisfaction',
+                icon: '🤝',
+                title: 'Customer-Centric Model',
+                description: 'Continuous interaction to address challenges and ensure successful collaboration.',
+                metrics: '20+ Customers',
                 color: 'from-blue-500 to-cyan-500'
               },
               {
-                icon: '🤝',
-                title: 'Collaborative Success',
-                description: 'Achieving more together than apart',
-                metrics: '40+ cross-team projects',
+                icon: '👥',
+                title: 'Expert Workforce',
+                description: 'Strong pool of trained and empowered IT & ITES professionals.',
+                metrics: '50+ Team',
                 color: 'from-purple-500 to-pink-500'
               },
               {
-                icon: '🎯',
-                title: 'Results Driven',
-                description: 'Delivering measurable impact for clients',
-                metrics: '200% average ROI',
+                icon: '📍',
+                title: 'Growing Presence',
+                description: 'Established delivery capability across seven states in India.',
+                metrics: '7 States',
                 color: 'from-emerald-500 to-green-500'
               },
               {
-                icon: '💡',
-                title: 'Creative Problem Solving',
-                description: 'Finding unique solutions to complex challenges',
-                metrics: '50+ patents filed',
+                icon: '🛡️',
+                title: 'Quality Delivery',
+                description: 'Structured processes to ensure reliable and timely execution.',
+                metrics: 'Process Driven',
                 color: 'from-orange-500 to-red-500'
               },
               {
-                icon: '🌱',
-                title: 'Sustainable Growth',
-                description: 'Building for long-term success',
-                metrics: '3x revenue growth',
+                icon: '📊',
+                title: 'Resource Screening',
+                description: 'Technical evaluation, coding assessments and proctoring mechanism.',
+                metrics: 'Validated Resources',
                 color: 'from-teal-500 to-emerald-500'
               },
               {
-                icon: '⭐',
-                title: 'Quality First',
-                description: 'Excellence in every deliverable',
-                metrics: '99.9% uptime',
+                icon: '⚙️',
+                title: 'Operational Support',
+                description: 'Relieving clients from operational and regulatory commitments.',
+                metrics: 'End-to-End Support',
                 color: 'from-amber-500 to-yellow-500'
               }
             ].map((value, index) => (
-              <div key={index} className="bg-white rounded-2xl p-8 border border-slate-300 shadow-lg h-full flex flex-col hover:shadow-xl hover:scale-105 transition-all duration-300 group">
-                <div className="text-6xl mb-6 text-center group-hover:animate-pulse">
+              <div key={index} className="bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 border border-slate-300 shadow-lg h-full flex flex-col hover:shadow-xl hover:scale-105 transition-all duration-300 group">
+                <div className="text-4xl sm:text-5xl md:text-6xl mb-4 sm:mb-6 text-center group-hover:animate-pulse">
                   {value.icon}
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center group-hover:text-blue-700 transition-colors duration-300">
+                <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-3 sm:mb-4 text-center group-hover:text-blue-700 transition-colors duration-300">
                   {value.title}
                 </h3>
-                <p className="text-slate-700 mb-6 text-center leading-relaxed flex-grow">
+                <p className="text-sm sm:text-base text-slate-700 mb-4 sm:mb-6 text-center leading-relaxed flex-grow">
                   {value.description}
                 </p>
                 <div className="text-center text-sm font-bold text-slate-800 mt-auto bg-slate-50 px-4 py-2 rounded-full">
@@ -1036,83 +842,21 @@ export const OurCulture = () => {
 
 
 
-        {/* Culture Benefits */}
-        <div className="mb-24">
-          <h2 className="text-5xl font-bold text-center mb-16 text-slate-900">
-            Why Our Team Loves Working Here
-          </h2>
-          
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-white rounded-3xl p-10 border border-slate-300 shadow-lg h-full">
-              <h3 className="text-3xl font-bold text-slate-900 mb-8 text-center">
-                🎉 Perks & Benefits
-              </h3>
-              <div className="space-y-6">
-                {[
-                  { icon: '💰', title: 'Competitive Salary', desc: 'Above market rates + equity' },
-                  { icon: '🏥', title: 'Premium Healthcare', desc: 'Full medical, dental, vision' },
-                  { icon: '🍕', title: 'Free Meals', desc: 'Catered lunch & snacks daily' },
-                  { icon: '🎮', title: 'Game Room', desc: 'Pool, foosball, gaming consoles' },
-                  { icon: '🚗', title: 'Commuter Benefits', desc: 'Parking & transit allowances' },
-                  { icon: '📚', title: 'Learning Budget', desc: '$3K annually for courses' }
-                ].map((benefit, i) => (
-                  <div key={i} className="flex items-center gap-4 p-4 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors duration-300">
-                    <div className="text-3xl">
-                      {benefit.icon}
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-slate-900">{benefit.title}</h4>
-                      <p className="text-sm text-slate-700">{benefit.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="bg-white rounded-3xl p-10 border border-slate-300 shadow-lg h-full">
-              <h3 className="text-3xl font-bold text-slate-900 mb-8 text-center">
-                🌟 Growth Opportunities
-              </h3>
-              <div className="space-y-6">
-                {[
-                  { icon: '📈', title: 'Career Progression', desc: '40% internal promotion rate' },
-                  { icon: '🎓', title: 'Skill Development', desc: 'Workshops & certifications' },
-                  { icon: '🌍', title: 'Global Projects', desc: 'Work with international clients' },
-                  { icon: '👥', title: 'Leadership Training', desc: 'Management development programs' },
-                  { icon: '🔬', title: 'Innovation Time', desc: '20% time for personal projects' },
-                  { icon: '🏆', title: 'Recognition Programs', desc: 'Awards & public acknowledgment' }
-                ].map((opportunity, i) => (
-                  <div key={i} className="flex items-center gap-4 p-4 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors duration-300">
-                    <div className="text-3xl">
-                      {opportunity.icon}
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-slate-900">{opportunity.title}</h4>
-                      <p className="text-sm text-slate-700">{opportunity.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="text-center">
-          <div className="mb-8">
-            <h2 className="text-4xl font-bold text-slate-900 mb-4">
+{/* Call to Action */}
+        <div className="text-center px-4">
+          <div className="mb-6 sm:mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mb-3 sm:mb-4">
               Ready to Be Part of Our Culture?
             </h2>
-            <p className="text-xl text-slate-800 max-w-3xl mx-auto mb-8">
-              Join a team that values innovation, collaboration, and personal growth. 
-              Discover opportunities that align with your career aspirations.
+            <p className="text-base sm:text-lg md:text-xl text-slate-800 max-w-3xl mx-auto mb-6 sm:mb-8">
+              Partner with Arvish Consulting to leverage a strong workforce, flexible engagement models and quality-driven delivery for your business success.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="bg-slate-900 text-white font-bold text-xl px-12 py-6 rounded-2xl hover:bg-slate-800 transition-colors duration-300 shadow-lg">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
+            <button className="bg-slate-900 text-white font-bold text-base sm:text-lg md:text-xl px-8 sm:px-12 py-4 sm:py-6 rounded-xl sm:rounded-2xl hover:bg-slate-800 transition-colors duration-300 shadow-lg">
               View Open Positions
             </button>
-            <button className="bg-white text-slate-900 border-2 border-slate-900 font-bold text-xl px-12 py-6 rounded-2xl hover:bg-slate-50 transition-colors duration-300">
+            <button className="bg-white text-slate-900 border-2 border-slate-900 font-bold text-base sm:text-lg md:text-xl px-8 sm:px-12 py-4 sm:py-6 rounded-xl sm:rounded-2xl hover:bg-slate-50 transition-colors duration-300">
               Schedule Culture Tour
             </button>
           </div>

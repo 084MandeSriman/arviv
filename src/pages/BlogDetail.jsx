@@ -4,45 +4,95 @@ import { useEffect, useState } from "react";
 /* BLOG DATA */
 const blogDetails = {
   1: {
-    title: "Digital Transformation: Optimizing Business Operations with Cloud Solutions",
+    title: "Enabling Enterprise Success Through IT & ITES Workforce Solutions",
     date: "Dec 18, 2025",
     author: "Team Arvish Consulting",
-    readTime: "8 min read",
-    category: "Digital Innovation",
-    tags: ["Cloud Solutions", "Digital Transformation", "Business Optimization", "IT Strategy"],
+    readTime: "6 min read",
+    category: "IT & ITES Services",
+    tags: ["Manpower Services", "Customer Centric", "SLA Delivery", "Professional Screening"],
     sections: [
-      { title: "Introduction", content: "Arvish Consulting Solutions is a premier technology partner that delivers value-added innovative IT and software solutions designed to optimize costs and maximize ROI for businesses worldwide. In today's rapidly evolving digital landscape, organizations must embrace transformation to remain competitive and achieve sustainable growth." },
-      { title: "Cloud-First Strategy", content: "Modern businesses require scalable, flexible infrastructure that adapts to changing demands. Our cloud solutions enable organizations to reduce operational costs, improve efficiency, and accelerate innovation. By leveraging cutting-edge cloud technologies, we help clients transition from legacy systems to modern, agile platforms that drive business value." },
-      { title: "Cost Optimization and ROI", content: "Every technology investment must deliver measurable returns. Our approach focuses on identifying cost-saving opportunities while enhancing operational efficiency. Through strategic planning and implementation, we help organizations optimize their IT spending, eliminate redundancies, and allocate resources more effectively to achieve maximum ROI." },
-      { title: "Sustainable Growth", content: "Digital transformation is not just about technology—it's about enabling long-term business success. Our client-centered approach ensures that solutions are tailored to specific business needs, driving measurable outcomes and sustainable growth in today's dynamic digital landscape." }
+      {
+        title: "Introduction",
+        content:
+          "Arvish Consulting provides a strong team of IT and ITES professionals deployed across customer locations to support enterprise and government organizations. Our customer-centric operating model ensures timely delivery, quality execution, and continuous engagement throughout the assignment lifecycle."
+      },
+      {
+        title: "Professional Screening and Onboarding",
+        content:
+          "We follow a structured technical screening process that includes proctoring mechanisms, coding assessments, and background validation. This enables our customers to receive the right resources within defined timelines while ensuring compliance with operational and regulatory requirements."
+      },
+      {
+        title: "Customer-Centric Delivery",
+        content:
+          "Our engagement model focuses on regular interaction, performance tracking, and quick resolution of collaboration challenges. This approach allows clients to concentrate on their core business while we manage the resource lifecycle efficiently."
+      },
+      {
+        title: "Nationwide Presence",
+        content:
+          "Within a short span, Arvish Consulting has established its presence across multiple states in India, delivering services to IT, government, healthcare, and service sectors with consistent quality and reliability."
+      }
     ]
   },
+
   2: {
-    title: "Maximizing ROI Through Strategic IT Solutions and Innovation",
+    title: "Flexible Engagement Models for Project-Based and Managed Services",
     date: "Nov 11, 2025",
     author: "Arvish Consulting Solutions",
-    readTime: "12 min read",
-    category: "Business Strategy",
-    tags: ["ROI Optimization", "IT Solutions", "Innovation", "Business Value"],
+    readTime: "7 min read",
+    category: "Project Delivery",
+    tags: ["Fixed Model", "T&M", "Milestone Based", "AMS"],
     sections: [
-      { title: "Strategic Technology Partnership", content: "With over 7 years of experience and 98+ projects delivered, Arvish Consulting Solutions has established itself as a trusted technology partner for businesses worldwide. Our expertise spans across multiple domains, enabling us to deliver comprehensive solutions that address complex business challenges and drive measurable success." },
-      { title: "Value-Added Solutions", content: "Our innovative IT and software solutions are designed with one goal in mind: delivering tangible business value. We combine cutting-edge technology with industry best practices to create customized solutions that optimize costs, improve efficiency, and accelerate time-to-market. Each solution is crafted to align with your specific business objectives and growth targets." },
-      { title: "Client-Centered Approach", content: "Understanding that every business is unique, we adopt a client-centered approach that prioritizes your specific needs and challenges. Our customized service plans are developed through close collaboration, ensuring that solutions not only meet technical requirements but also align with your business strategy and organizational culture." },
-      { title: "Measurable Business Success", content: "Success is measured in results. Our track record of 25+ happy clients and high satisfaction rates demonstrates our commitment to delivering outcomes that matter. We focus on creating solutions that drive measurable business success, from improved operational efficiency to enhanced customer experiences and increased revenue growth." }
+      {
+        title: "Structured Engagement Approach",
+        content:
+          "Arvish Consulting offers multiple engagement models including Fixed, Time & Material, Milestone-based, and Application Management Services. These models are designed to suit diverse project requirements and provide flexibility to customers."
+      },
+      {
+        title: "End-to-End Project Execution",
+        content:
+          "Our strong pool of project managers, team leads, and skilled resources enables us to plan, execute, and control project-based initiatives aligned with strategic business goals."
+      },
+      {
+        title: "Performance Visibility",
+        content:
+          "We provide objective performance reporting through dashboards that offer visibility into project execution. This enables timely decision-making and improved operational efficiency."
+      },
+      {
+        title: "Continuous Efficiency Improvement",
+        content:
+          "Clients benefit from our ongoing operational efficiency enhancement initiatives, helping them operate at optimal performance levels while maintaining service quality."
+      }
     ]
   },
+
   3: {
-    title: "Client-Centered Approach: Driving Measurable Business Success",
+    title: "Payroll, Application Maintenance and Corporate Website Management Services",
     date: "Oct 28, 2025",
     author: "Team Arvish Consulting",
-    readTime: "10 min read",
-    category: "Client Success",
-    tags: ["Client Partnership", "Business Growth", "Custom Solutions", "Success Stories"],
+    readTime: "8 min read",
+    category: "Managed Services",
+    tags: ["Payroll Processing", "Application Support", "Database Administration", "IT Infrastructure"],
     sections: [
-      { title: "Understanding Client Needs", content: "At Arvish Consulting Solutions, we believe that successful technology implementation begins with a deep understanding of client needs. Our client-centered approach ensures that every solution is tailored to address specific business challenges, operational requirements, and strategic objectives. We invest time in understanding your business landscape to deliver solutions that truly make a difference." },
-      { title: "Customized Service Plans", content: "One size does not fit all in technology solutions. Our customized service plans are designed to align with your unique business requirements, budget constraints, and growth trajectory. Whether you need comprehensive digital transformation or targeted improvements in specific areas, we create flexible service plans that adapt to your evolving needs." },
-      { title: "Cutting-Edge Technology Integration", content: "Staying ahead in today's dynamic digital landscape requires leveraging the latest technologies effectively. We combine cutting-edge technology with proven methodologies to deliver solutions that are both innovative and reliable. Our expertise spans cloud computing, data analytics, enterprise applications, and modern software development practices." },
-      { title: "Sustainable Growth and Success", content: "Our ultimate goal is to drive sustainable growth for our clients. Through continuous support, optimization, and innovation, we ensure that your technology investments continue to deliver value over time. Our commitment to your success extends beyond project delivery—we partner with you for long-term growth and competitive advantage in your industry." }
+      {
+        title: "Payroll Management Services",
+        content:
+          "Our payroll services follow clearly defined processes and SLA-driven execution with fully automated workflows to eliminate manual errors. Multi-level validation ensures compliance with statutory and tax regulations while providing complete visibility of payroll costs."
+      },
+      {
+        title: "Application Maintenance and Support",
+        content:
+          "We provide continuous support for enterprise applications including enhancements, change requests, periodic maintenance, and SLA-based ticket resolution to ensure high availability and performance."
+      },
+      {
+        title: "Corporate Website Management",
+        content:
+          "With extensive experience in CMS platforms such as Drupal, WordPress, and Typo3, we manage corporate portals for enterprises and SMEs. Our services include content updates, UI improvements, performance optimization, and backup and recovery."
+      },
+      {
+        title: "IT Administration and Infrastructure Support",
+        content:
+          "Our expertise includes data center management, network security, active directory services, database administration, and infrastructure monitoring to ensure stable and secure operations."
+      }
     ]
   }
 };
@@ -221,10 +271,10 @@ export default function BlogDetail() {
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="white"><path d="M12 2L2 7V10C2 16 6 20.5 12 22C18 20.5 22 16 22 10V7L12 2Z"/></svg>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Arvish Consulting Solutions</h3>
-              <p className="text-sm text-slate-400 mb-6">Ready to optimize your business operations and maximize ROI? Our experts deliver innovative IT solutions tailored to your needs.</p>
-              <button className="w-full py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all transform hover:scale-[1.02] active:scale-95 shadow-[0_0_20px_rgba(37,99,235,0.3)]">
+              <p className="text-sm text-slate-400 mb-6">Partner with Arvish Consulting for IT & ITES resourcing, project-based delivery, payroll management, application maintenance and corporate portal support through SLA-driven engagement models.</p>
+              <Link to="/contact" className="block w-full py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all transform hover:scale-[1.02] active:scale-95 shadow-[0_0_20px_rgba(37,99,235,0.3)] text-center">
                 Book a Consultation
-              </button>
+              </Link>
             </div>
 
             <div className="p-8 border border-white/5 rounded-3xl bg-white/[0.02]">
@@ -245,8 +295,8 @@ export default function BlogDetail() {
       <footer className="max-w-7xl mx-auto px-6 pb-20">
         <div className="glass-card rounded-[40px] p-12 text-center relative overflow-hidden border-blue-500/20">
           <div className="absolute inset-0 bg-blue-600/5" />
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 relative">Stay ahead in digital transformation.</h2>
-          <p className="text-slate-400 mb-10 max-w-xl mx-auto relative text-lg">Join our community and receive insights on innovative IT solutions and business optimization strategies.</p>
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 relative">Build reliable delivery teams and streamline your operations.</h2>
+          <p className="text-slate-400 mb-10 max-w-xl mx-auto relative text-lg">Get updates on IT & ITES services, project execution strategies and enterprise support solutions.</p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto relative">
             <input type="email" placeholder="your-email@company.com" className="flex-1 bg-black/40 border border-white/10 rounded-2xl px-6 py-4 focus:outline-none focus:border-blue-500 transition-colors" />
             <button className="px-8 py-4 bg-white text-black font-bold rounded-2xl hover:bg-slate-200 transition-colors">Subscribe</button>

@@ -193,77 +193,8 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Certifications & Social Column */}
+        {/* Social Column */}
         <div className="xs:col-span-2 md:col-span-1">
-          {/* Microsoft Partner Badge */}
-          <div className="mb-4 xs:mb-6 bg-white p-3 xs:p-4 rounded-lg shadow-sm">
-            <div className="flex items-start gap-2 xs:gap-3">
-              <svg className="w-8 xs:w-10 sm:w-12 h-8 xs:h-10 sm:h-12 flex-shrink-0" viewBox="0 0 23 23" fill="none">
-                <rect width="11" height="11" fill="#f25022"/>
-                <rect x="12" width="11" height="11" fill="#7fba00"/>
-                <rect y="12" width="11" height="11" fill="#00a4ef"/>
-                <rect x="12" y="12" width="11" height="11" fill="#ffb900"/>
-              </svg>
-              <div className="text-xs">
-                <p className="font-bold text-slate-800 mb-1">Microsoft Partner</p>
-                <p className="text-slate-600 leading-tight text-xs">
-                  Gold Application Integration<br/>
-                  Gold Data Analytics<br/>
-                  Gold Application Development<br/>
-                  Gold Cloud Platform<br/>
-                  Gold Cloud Business Applications
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          {/* Certifications */}
-          <div className="space-y-3 xs:space-y-4 mb-4 xs:mb-6">
-            {/* CMMI DEV/5 */}
-            <div className="bg-white p-2 xs:p-3 rounded-lg shadow-sm flex items-center gap-2 xs:gap-3">
-              <div className="w-8 xs:w-10 sm:w-12 h-8 xs:h-10 sm:h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
-                <svg className="w-5 xs:w-6 sm:w-8 h-5 xs:h-6 sm:h-8" viewBox="0 0 100 100" fill="none">
-                  <circle cx="50" cy="50" r="45" stroke="white" strokeWidth="3"/>
-                  <circle cx="50" cy="50" r="35" stroke="white" strokeWidth="2"/>
-                  <circle cx="50" cy="50" r="25" stroke="white" strokeWidth="2"/>
-                  <path d="M35 50 L45 60 L65 40" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </div>
-              <div>
-                <p className="font-bold text-xs xs:text-sm text-slate-800">CMMI DEV/5</p>
-                <p className="text-xs text-slate-600">Capability Maturity Model</p>
-              </div>
-            </div>
-            
-            {/* ISO 27001:2013 */}
-            <div className="bg-white p-2 xs:p-3 rounded-lg shadow-sm flex items-center gap-2 xs:gap-3">
-              <div className="w-8 xs:w-10 sm:w-12 h-8 xs:h-10 sm:h-12 bg-blue-700 rounded flex items-center justify-center flex-shrink-0">
-                <svg className="w-5 xs:w-6 sm:w-8 h-5 xs:h-6 sm:h-8" viewBox="0 0 100 100" fill="none">
-                  <circle cx="50" cy="50" r="40" stroke="white" strokeWidth="3"/>
-                  <text x="50" y="60" fontSize="32" fontWeight="bold" fill="white" textAnchor="middle">ISO</text>
-                </svg>
-              </div>
-              <div>
-                <p className="font-bold text-xs xs:text-sm text-slate-800">ISO 27001:2013</p>
-                <p className="text-xs text-slate-600">Information Security</p>
-              </div>
-            </div>
-            
-            {/* ISO 9001:2015 */}
-            <div className="bg-white p-2 xs:p-3 rounded-lg shadow-sm flex items-center gap-2 xs:gap-3">
-              <div className="w-8 xs:w-10 sm:w-12 h-8 xs:h-10 sm:h-12 bg-blue-700 rounded flex items-center justify-center flex-shrink-0">
-                <svg className="w-5 xs:w-6 sm:w-8 h-5 xs:h-6 sm:h-8" viewBox="0 0 100 100" fill="none">
-                  <circle cx="50" cy="50" r="40" stroke="white" strokeWidth="3"/>
-                  <text x="50" y="60" fontSize="32" fontWeight="bold" fill="white" textAnchor="middle">ISO</text>
-                </svg>
-              </div>
-              <div>
-                <p className="font-bold text-xs xs:text-sm text-slate-800">ISO 9001:2015</p>
-                <p className="text-xs text-slate-600">Quality Management</p>
-              </div>
-            </div>
-          </div>
-
           {/* Social Media */}
           <div className="flex items-center gap-2 xs:gap-3">
             <span className="text-xs xs:text-sm text-gray-600">Follow us on</span>

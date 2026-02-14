@@ -396,55 +396,54 @@ export const WhatWeOffer = () => {
             What We Offer
           </h1>
           <p className="text-lg xs:text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-            Join ARVISH CONSULTING and discover a career that offers growth, innovation, and meaningful impact. 
-            We believe in investing in our people and creating an environment where talent thrives.
+            At Arvish Consulting, we provide opportunities to work on mission-critical projects across government and enterprise customers. Our people are at the core of our success. We ensure continuous engagement, structured onboarding, and long-term career growth through challenging assignments and collaborative delivery environments.
           </p>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 xs:px-6 py-12 xs:py-16 sm:py-20">
-        {/* Compensation & Benefits */}
+        {/* Employee Value Proposition */}
         <section className="mb-12 xs:mb-16 sm:mb-20">
           <h2 className="text-3xl xs:text-4xl font-bold text-slate-900 mb-8 xs:mb-10 sm:mb-12 text-center">
-            💰 Compensation & Benefits
+            👥 Employee Value Proposition
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 xs:gap-8">
             {[
               {
-                icon: '💵',
-                title: 'Competitive Salary',
-                desc: 'Market-leading compensation packages with annual reviews and performance bonuses',
-                highlight: 'Above industry standards'
+                icon: '🤝',
+                title: 'Long-Term Engagement',
+                desc: 'Continuous engagement with employees throughout their assignment lifecycle',
+                highlight: 'Stable career growth'
               },
               {
-                icon: '🏥',
-                title: 'Premium Healthcare',
-                desc: 'Comprehensive medical, dental, and vision coverage for you and your family',
-                highlight: '100% premium covered'
+                icon: '🎯',
+                title: 'Client Exposure',
+                desc: 'Opportunity to work with leading enterprises and government organizations',
+                highlight: 'Real-world project experience'
               },
               {
-                icon: '🏖️',
-                title: 'Generous PTO',
-                desc: 'Flexible vacation policy with 25+ days annual leave plus public holidays',
-                highlight: 'Unlimited sick days'
+                icon: '📋',
+                title: 'Structured Onboarding',
+                desc: 'Professional screening, validation and onboarding within defined timelines',
+                highlight: 'Smooth deployment process'
               },
               {
-                icon: '💼',
-                title: 'Equity Participation',
-                desc: 'Stock options and profit-sharing programs to share in company success',
-                highlight: 'Ownership mindset'
+                icon: '🌍',
+                title: 'Multi-Location Opportunities',
+                desc: 'Deployment across customer locations in multiple states',
+                highlight: 'Pan-India presence'
               },
               {
-                icon: '🚗',
-                title: 'Transportation',
-                desc: 'Company car allowance or public transport reimbursement',
-                highlight: 'Flexible options'
+                icon: '🏆',
+                title: 'Best Employer Focus',
+                desc: 'People-first approach with strong support and career continuity',
+                highlight: 'Employee-centric culture'
               },
               {
-                icon: '🍽️',
-                title: 'Meal Benefits',
-                desc: 'Daily catered meals, snacks, and premium coffee in all offices',
-                highlight: 'Healthy options'
+                icon: '🔄',
+                title: 'Flexible Engagement Models',
+                desc: 'Opportunities in T&M, SLA, milestone and AMS based projects',
+                highlight: 'Diverse assignments'
               }
             ].map((benefit, i) => (
               <div key={i} className="bg-white rounded-2xl shadow-lg p-6 xs:p-8 hover:shadow-xl transition-all duration-300 group">
@@ -461,81 +460,36 @@ export const WhatWeOffer = () => {
           </div>
         </section>
 
-        {/* Career Development */}
+        {/* Professional Growth */}
         <section className="mb-12 xs:mb-16 sm:mb-20">
           <h2 className="text-3xl xs:text-4xl font-bold text-slate-900 mb-8 xs:mb-10 sm:mb-12 text-center">
-            🚀 Career Development
+            🚀 Professional Growth
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xs:gap-10 sm:gap-12">
-            <div className="bg-white rounded-3xl shadow-xl p-6 xs:p-8 sm:p-10">
-              <h3 className="text-2xl xs:text-3xl font-bold text-slate-900 mb-4 xs:mb-6 flex items-center gap-2 xs:gap-3">
-                📚 Learning & Growth
-              </h3>
-              <div className="space-y-3 xs:space-y-4">
-                <div className="flex items-start gap-2 xs:gap-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 text-sm xs:text-base">$5,000 Annual Learning Budget</h4>
-                    <p className="text-slate-600 text-xs xs:text-sm">For courses, certifications, conferences, and books</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-2 xs:gap-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 text-sm xs:text-base">Certification Support</h4>
-                    <p className="text-slate-600 text-xs xs:text-sm">AWS, Azure, Google Cloud, and industry certifications</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-2 xs:gap-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 text-sm xs:text-base">Internal Training Programs</h4>
-                    <p className="text-slate-600 text-xs xs:text-sm">Weekly tech talks, workshops, and skill-building sessions</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-2 xs:gap-3">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 text-sm xs:text-base">Mentorship Program</h4>
-                    <p className="text-slate-600 text-xs xs:text-sm">Paired with senior professionals for career guidance</p>
-                  </div>
-                </div>
+          <div className="bg-white rounded-3xl shadow-xl p-6 xs:p-8 sm:p-10">
+            <div className="space-y-4 xs:space-y-6">
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Exposure to diverse technologies and enterprise environments</p>
               </div>
-            </div>
-
-            <div className="bg-white rounded-3xl shadow-xl p-6 xs:p-8 sm:p-10">
-              <h3 className="text-2xl xs:text-3xl font-bold text-slate-900 mb-4 xs:mb-6 flex items-center gap-2 xs:gap-3">
-                📈 Career Progression
-              </h3>
-              <div className="space-y-3 xs:space-y-4">
-                <div className="flex items-start gap-2 xs:gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 text-sm xs:text-base">Clear Career Paths</h4>
-                    <p className="text-slate-600 text-xs xs:text-sm">Defined progression from junior to senior to leadership roles</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-2 xs:gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 text-sm xs:text-base">Leadership Development</h4>
-                    <p className="text-slate-600 text-xs xs:text-sm">Management training and leadership coaching programs</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-2 xs:gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 text-sm xs:text-base">Internal Mobility</h4>
-                    <p className="text-slate-600 text-xs xs:text-sm">Opportunities to switch teams and explore different domains</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-2 xs:gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 text-sm xs:text-base">Global Opportunities</h4>
-                    <p className="text-slate-600 text-xs xs:text-sm">International assignments and client projects worldwide</p>
-                  </div>
-                </div>
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Opportunity to work across multiple domains</p>
+              </div>
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Continuous skill enhancement through live projects</p>
+              </div>
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Experience in structured delivery and support models</p>
+              </div>
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Career progression based on performance and project experience</p>
+              </div>
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Interaction with customer teams and domain experts</p>
               </div>
             </div>
           </div>
@@ -549,19 +503,19 @@ export const WhatWeOffer = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 xs:gap-8">
             {[
               {
-                icon: '🏠',
-                title: 'Flexible Work Options',
-                features: ['Remote work available', 'Hybrid schedules', 'Flexible hours', 'Work-life balance']
+                icon: '🏢',
+                title: 'Collaborative Delivery Model',
+                features: ['Work as part of dedicated customer teams', 'Process-driven execution', 'Defined roles & responsibilities', 'Quality and SLA focused delivery']
               },
               {
-                icon: '🎮',
-                title: 'Modern Offices',
-                features: ['State-of-the-art facilities', 'Game rooms & relaxation areas', 'Ergonomic workstations', 'Collaborative spaces']
+                icon: '📡',
+                title: 'Customer-Centric Culture',
+                features: ['Alignment with customer goals', 'Professional communication', 'Timely service delivery', 'Performance measurement through SLAs']
               },
               {
-                icon: '🌟',
-                title: 'Inclusive Culture',
-                features: ['Diversity & inclusion', 'Open communication', 'Team building events', 'Recognition programs']
+                icon: '🤝',
+                title: 'Supportive HR Engagement',
+                features: ['Continuous employee interaction', 'Assignment lifecycle support', 'Performance tracking', 'Career guidance']
               }
             ].map((env, i) => (
               <div key={i} className="bg-white rounded-2xl shadow-lg p-6 xs:p-8 hover:shadow-xl transition-all duration-300">
@@ -580,70 +534,89 @@ export const WhatWeOffer = () => {
           </div>
         </section>
 
-        {/* Innovation & Technology */}
+        {/* Technology & Platforms */}
         <section className="mb-12 xs:mb-16 sm:mb-20">
           <h2 className="text-3xl xs:text-4xl font-bold text-slate-900 mb-8 xs:mb-10 sm:mb-12 text-center">
-            💡 Innovation & Technology
+            💡 Technology & Platforms
           </h2>
-          <div className="bg-gradient-to-r from-purple-500 to-indigo-600 rounded-3xl p-8 xs:p-10 sm:p-12 text-white">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xs:gap-10 sm:gap-12 items-center">
-              <div>
-                <h3 className="text-2xl xs:text-3xl font-bold mb-4 xs:mb-6">Cutting-Edge Technology</h3>
-                <div className="space-y-3 xs:space-y-4">
-                  <div className="flex items-center gap-2 xs:gap-3">
-                    <span className="text-xl xs:text-2xl">🔬</span>
-                    <span className="text-sm xs:text-base">20% time for innovation projects</span>
-                  </div>
-                  <div className="flex items-center gap-2 xs:gap-3">
-                    <span className="text-xl xs:text-2xl">⚡</span>
-                    <span className="text-sm xs:text-base">Latest tools and technologies</span>
-                  </div>
-                  <div className="flex items-center gap-2 xs:gap-3">
-                    <span className="text-xl xs:text-2xl">🚀</span>
-                    <span className="text-sm xs:text-base">R&D opportunities</span>
-                  </div>
-                  <div className="flex items-center gap-2 xs:gap-3">
-                    <span className="text-xl xs:text-2xl">🏆</span>
-                    <span className="text-sm xs:text-base">Innovation awards and recognition</span>
-                  </div>
-                </div>
+          <div className="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-3xl p-8 xs:p-10 sm:p-12 text-white">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl xs:text-3xl font-bold mb-4">Service Delivery Excellence</h3>
+              <p className="text-lg xs:text-xl opacity-90 max-w-3xl mx-auto">
+                We enable our teams to work on modern enterprise platforms, application support environments, infrastructure services, and digital transformation initiatives across customer ecosystems.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 xs:gap-6">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 xs:p-6">
+                <div className="text-3xl mb-3">💼</div>
+                <h4 className="font-bold mb-2 text-sm xs:text-base">Enterprise Applications</h4>
+                <p className="text-xs xs:text-sm opacity-90">Support and maintenance of business-critical applications</p>
               </div>
-              <div className="text-center">
-                <div className="text-6xl xs:text-7xl sm:text-8xl mb-3 xs:mb-4">🧠</div>
-                <p className="text-lg xs:text-xl opacity-90">
-                  Work on AI, Machine Learning, Cloud Computing, and emerging technologies that shape the future
-                </p>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 xs:p-6">
+                <div className="text-3xl mb-3">🗄️</div>
+                <h4 className="font-bold mb-2 text-sm xs:text-base">Database Environments</h4>
+                <p className="text-xs xs:text-sm opacity-90">Administration and optimization of database systems</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 xs:p-6">
+                <div className="text-3xl mb-3">🌐</div>
+                <h4 className="font-bold mb-2 text-sm xs:text-base">Corporate Website Management</h4>
+                <p className="text-xs xs:text-sm opacity-90">Content management and digital presence support</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 xs:p-6">
+                <div className="text-3xl mb-3">🖥️</div>
+                <h4 className="font-bold mb-2 text-sm xs:text-base">IT Infrastructure Support</h4>
+                <p className="text-xs xs:text-sm opacity-90">Network, server, and system administration</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 xs:p-6">
+                <div className="text-3xl mb-3">🔧</div>
+                <h4 className="font-bold mb-2 text-sm xs:text-base">Application Maintenance</h4>
+                <p className="text-xs xs:text-sm opacity-90">Bug fixes, updates, and continuous improvements</p>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 xs:p-6">
+                <div className="text-3xl mb-3">⚡</div>
+                <h4 className="font-bold mb-2 text-sm xs:text-base">Enhancements</h4>
+                <p className="text-xs xs:text-sm opacity-90">Feature additions and system upgrades</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Wellness & Lifestyle */}
+        {/* Our Commitment to Employees */}
         <section className="mb-12 xs:mb-16 sm:mb-20">
           <h2 className="text-3xl xs:text-4xl font-bold text-slate-900 mb-8 xs:mb-10 sm:mb-12 text-center">
-            🌱 Wellness & Lifestyle
+            🌱 Our Commitment to Employees
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 xs:gap-6">
-            {[
-              { icon: '🏋️', title: 'Fitness', desc: 'Gym memberships & wellness programs' },
-              { icon: '🧘', title: 'Mental Health', desc: 'Counseling services & stress management' },
-              { icon: '👶', title: 'Family Support', desc: 'Parental leave & childcare assistance' },
-              { icon: '🎉', title: 'Social Events', desc: 'Team outings & celebration parties' }
-            ].map((wellness, i) => (
-              <div key={i} className="bg-white rounded-xl shadow-lg p-4 xs:p-6 text-center hover:shadow-xl transition-all duration-300">
-                <div className="text-3xl xs:text-4xl mb-3 xs:mb-4">{wellness.icon}</div>
-                <h3 className="text-lg xs:text-xl font-bold text-slate-900 mb-2">{wellness.title}</h3>
-                <p className="text-slate-600 text-xs xs:text-sm">{wellness.desc}</p>
+          <div className="bg-white rounded-3xl shadow-xl p-6 xs:p-8 sm:p-10">
+            <div className="space-y-4 xs:space-y-6">
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Timely deployment and role clarity</p>
               </div>
-            ))}
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Transparent communication</p>
+              </div>
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Continuous engagement during assignments</p>
+              </div>
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Stable and professional work environment</p>
+              </div>
+              <div className="flex items-start gap-3 xs:gap-4">
+                <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                <p className="text-slate-700 text-sm xs:text-base">Recognition for performance and delivery excellence</p>
+              </div>
+            </div>
           </div>
         </section>
 
         {/* Call to Action */}
         <section className="text-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-8 xs:p-10 sm:p-12 text-white">
-          <h2 className="text-3xl xs:text-4xl font-bold mb-4 xs:mb-6">Ready to Join Our Team?</h2>
+          <h2 className="text-3xl xs:text-4xl font-bold mb-4 xs:mb-6">Build Your Career With Us</h2>
           <p className="text-lg xs:text-xl mb-6 xs:mb-8 opacity-90 max-w-2xl mx-auto">
-            Discover exciting career opportunities and be part of a company that invests in your success and growth.
+            Build your career with a consulting organization that values people, process and performance. Explore opportunities to be part of high-impact delivery teams across multiple customer environments.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 xs:gap-4 justify-center">
             <Link 
@@ -682,81 +655,66 @@ export const CurrentOpenings = () => {
 
   const jobs = [
     { 
-      title: 'Senior Full Stack Developer', 
-      location: 'Hyderabad', 
+      title: 'IT Infrastructure Support Engineer', 
+      location: 'Client Location', 
       type: 'Full-time',
-      salary: '₹15-25 LPA',
-      experience: '7-10 Years',
-      department: 'Development',
-      skills: ['React', 'Node.js', 'MongoDB'],
-      urgency: 'Urgent',
+      engagement: 'AMS / SLA Based',
+      deployment: 'Onsite',
+      department: 'IT Administration & Support',
+      skills: ['Troubleshooting', 'Network Support', 'AD Services'],
+      urgency: 'Open',
       icon: '💻',
       color: 'slate'
     },
     { 
-      title: 'AI/ML Engineer', 
-      location: 'Bangalore', 
+      title: 'Application Support Engineer', 
+      location: 'Client Location', 
       type: 'Full-time',
-      salary: '₹20-35 LPA',
-      experience: '5-8 Years',
-      department: 'AI & Data Science',
-      skills: ['Python', 'TensorFlow', 'Deep Learning'],
-      urgency: 'Hot',
-      icon: '🤖',
+      engagement: 'Project Based',
+      deployment: 'Offshore / Onsite',
+      department: 'Application Services',
+      skills: ['Monitoring', 'Issue Resolution', 'Enhancements'],
+      urgency: 'Open',
+      icon: '🔧',
       color: 'blue'
     },
     { 
-      title: 'DevOps Engineer', 
-      location: 'Remote', 
+      title: 'Database Administrator', 
+      location: 'Hyderabad', 
       type: 'Full-time',
-      salary: '₹12-20 LPA',
-      experience: '4-7 Years',
-      department: 'Infrastructure',
-      skills: ['Docker', 'Kubernetes', 'AWS'],
-      urgency: 'New',
-      icon: '⚙️',
+      engagement: 'SLA Based',
+      deployment: 'Offshore',
+      department: 'Database Administration',
+      skills: ['Backup & Recovery', 'Performance Tuning', 'Configuration'],
+      urgency: 'Open',
+      icon: '🗄️',
       color: 'gray'
     },
     { 
-      title: 'UI/UX Designer', 
+      title: 'Web & CMS Support Specialist', 
       location: 'Hyderabad', 
       type: 'Full-time',
-      salary: '₹8-15 LPA',
-      experience: '3-6 Years',
-      department: 'Design',
-      skills: ['Figma', 'Adobe XD', 'Prototyping'],
-      urgency: 'Featured',
-      icon: '🎨',
+      engagement: 'Maintenance Contract',
+      deployment: 'Offshore',
+      department: 'Corporate Website Support',
+      skills: ['WordPress/Drupal', 'Content Updates', 'UI Enhancements'],
+      urgency: 'Open',
+      icon: '🌐',
       color: 'indigo'
-    },
-    { 
-      title: 'Data Analyst', 
-      location: 'Bangalore', 
-      type: 'Full-time',
-      salary: '₹6-12 LPA',
-      experience: '2-5 Years',
-      department: 'Analytics',
-      skills: ['SQL', 'Python', 'Tableau'],
-      urgency: 'New',
-      icon: '📊',
-      color: 'slate'
     }
   ];
 
   const filteredJobs = jobs.filter(job => {
     if (activeFilter === 'All Positions') return true;
-    if (activeFilter === 'Development') return job.department === 'Development' || job.department === 'AI & Data Science' || job.department === 'Infrastructure';
-    if (activeFilter === 'Design') return job.department === 'Design';
-    if (activeFilter === 'Remote') return job.location === 'Remote';
+    if (activeFilter === 'IT Support') return job.department === 'IT Administration & Support' || job.department === 'Application Services';
+    if (activeFilter === 'Database') return job.department === 'Database Administration';
+    if (activeFilter === 'Offshore') return job.deployment.includes('Offshore');
     return true;
   });
 
   const getUrgencyColor = (urgency) => {
     switch(urgency) {
-      case 'Urgent': return 'bg-red-600 text-white';
-      case 'Hot': return 'bg-orange-600 text-white';
-      case 'Featured': return 'bg-blue-600 text-white';
-      case 'New': return 'bg-green-600 text-white';
+      case 'Open': return 'bg-green-600 text-white';
       default: return 'bg-slate-600 text-white';
     }
   };
@@ -789,21 +747,20 @@ export const CurrentOpenings = () => {
               Current Openings
             </h1>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
-              Join our team of professionals and advance your career with industry-leading projects. 
-              Explore opportunities that match your expertise and career goals.
+              Join our growing team of IT and ITES professionals and work on challenging assignments across leading enterprises and government organizations. We provide opportunities to learn, grow and contribute in a collaborative, process-driven and customer-centric environment.
             </p>
             <div className="flex justify-center items-center gap-8 text-slate-500">
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
-                <span className="font-medium">5 Open Positions</span>
+                <span className="font-medium">50+ Team Members</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-green-600 rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></span>
-                <span className="font-medium">Multiple Locations</span>
+                <span className="font-medium">7+ State Presence</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-slate-600 rounded-full animate-pulse" style={{animationDelay: '1s'}}></span>
-                <span className="font-medium">Competitive Packages</span>
+                <span className="font-medium">Multiple Client Engagements</span>
               </div>
             </div>
           </div>
@@ -855,10 +812,47 @@ export const CurrentOpenings = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 py-16">
+        {/* Hiring Process Section */}
+        <div className="mb-12 bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+          <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">Our Hiring Process</h2>
+          <div className="grid md:grid-cols-5 gap-6">
+            <div className="text-center">
+              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-2xl">📋</span>
+              </div>
+              <p className="text-sm text-slate-600">Technical screening and coding assessments</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-2xl">✓</span>
+              </div>
+              <p className="text-sm text-slate-600">Background validation</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-2xl">🤝</span>
+              </div>
+              <p className="text-sm text-slate-600">Client interview coordination</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-2xl">🚀</span>
+              </div>
+              <p className="text-sm text-slate-600">Onboarding within defined timelines</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-2xl">📞</span>
+              </div>
+              <p className="text-sm text-slate-600">Continuous engagement during assignment lifecycle</p>
+            </div>
+          </div>
+        </div>
+
         {/* Filter Section */}
         <div className="mb-12">
           <div className="flex flex-wrap gap-3 justify-center">
-            {['All Positions', 'Development', 'Design', 'Remote'].map((filter) => (
+            {['All Positions', 'IT Support', 'Database', 'Offshore'].map((filter) => (
               <button 
                 key={filter}
                 onClick={() => setActiveFilter(filter)}
@@ -913,12 +907,12 @@ export const CurrentOpenings = () => {
                   {/* Job Details */}
                   <div className="grid grid-cols-2 gap-4 mb-6">
                     <div className="bg-gray-50 rounded-lg p-3">
-                      <div className="text-slate-500 text-xs font-medium mb-1">SALARY RANGE</div>
-                      <div className="font-semibold text-slate-900">{job.salary}</div>
+                      <div className="text-slate-500 text-xs font-medium mb-1">ENGAGEMENT TYPE</div>
+                      <div className="font-semibold text-slate-900">{job.engagement}</div>
                     </div>
                     <div className="bg-gray-50 rounded-lg p-3">
-                      <div className="text-slate-500 text-xs font-medium mb-1">EXPERIENCE</div>
-                      <div className="font-semibold text-slate-900">{job.experience}</div>
+                      <div className="text-slate-500 text-xs font-medium mb-1">DEPLOYMENT MODEL</div>
+                      <div className="font-semibold text-slate-900">{job.deployment}</div>
                     </div>
                   </div>
 
@@ -934,10 +928,9 @@ export const CurrentOpenings = () => {
                     </div>
                   </div>
 
-                  {/* Department & Posted Date */}
+                  {/* Department */}
                   <div className="flex items-center justify-between mb-6 text-sm text-slate-500">
-                    <span>{job.department} Department</span>
-                    <span>Posted 2 days ago</span>
+                    <span>{job.department}</span>
                   </div>
 
                   {/* Action Buttons */}
@@ -963,16 +956,16 @@ export const CurrentOpenings = () => {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <div className="bg-slate-900 rounded-xl p-12 text-white">
-            <h2 className="text-3xl font-bold mb-4">Don't See Your Perfect Role?</h2>
+            <h2 className="text-3xl font-bold mb-4">Looking for Skilled Professionals?</h2>
             <p className="text-lg mb-8 text-slate-300 max-w-2xl mx-auto">
-              We're always looking for talented professionals. Send us your resume and we'll keep you in mind for future opportunities.
+              We are always looking for skilled professionals to be part of our delivery teams deployed across leading customer environments. Submit your profile and our HR team will connect with you for suitable opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 to="/contact" 
                 className="bg-white text-slate-900 font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors duration-300"
               >
-                Send Resume
+                Submit Your Profile
               </Link>
               <Link 
                 to="/careers/what-we-offer" 
